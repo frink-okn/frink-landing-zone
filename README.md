@@ -25,16 +25,10 @@ Markdown in images
 ![](/assets/images/1create-repo-button.png)
 
 HTML image in assets
-<img src="assets/1create-repo-button.png">
-
-HTML image in assets with /
-<img src="/assets/1create-repo-button.png">
+<img src="assets/1create-repo-button.png" width="200" height="100">
 
 HTML image in images 
 <img src="assets/images/1create-repo-button.png">
-
-HTML image in images with /
-<img src="/assets/images/1create-repo-button.png">
 
 
 5. The **Create A New Repository** pop-up window will appear asking you for a **Repository ID**. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the **Create Repository** button.

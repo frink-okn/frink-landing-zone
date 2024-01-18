@@ -49,8 +49,8 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 11. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.
 
     <img width="40%" alt="Create Tag pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/10tag-popup.png">
-
-   :point_right: _**You may use other branches if you wish, just be sure to merge those branches back to main.**_
+    
+    :point_right: _**You may use other branches if you wish, just be sure to merge those branches back to main.**_
 
 14. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
 

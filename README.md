@@ -16,7 +16,9 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 3. We request that you create one repository (repo) for each unique dataset (i.e., graph). Along with lakeFS' tagging system, this enables us to properly track versions of your graph. So when visiting lakeFS for the first time, please click the **Create Repository** button to create a new repo.
 
-   ![](./assets/images/1create-repo-button.png)
+![](assets/1create-repo-button.png)
+
+   ![](/assets/images/1create-repo-button.png)
 
    <img width=20% alt="Create Repository button" src="https://github.com/frink-okn/frink-landing-zone/blob/main/docs/assets/images/1create-repo-button.png?raw=true">
 

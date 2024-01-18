@@ -1,13 +1,11 @@
 # How to Upload Your Graph to Lake FS
-Theme 1 Teams, there are 3 ways to upload your graph to Lake FS. Instructions for two of those three ways is provided below. Instructions for the third method will soon follow.
+Theme 1 Teams, there are several ways to upload your graph to Lake FS. Instructions for two of those three ways is provided below.
 
 Upload through the website
 
 Upload using Amazon's Command Line Interface (CLI)
 
-Upload using the Lake FS Command Line Interface (CLI)
-
-For each method you will need to request credentials for accessing Lake FS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yahpet at kebedey at renci dot org. 
+For each method you will need to request credentials for accessing Lake FS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org. 
 
 
 
@@ -45,9 +43,42 @@ For each method you will need to request credentials for accessing Lake FS. Thes
 
 To upload a new version of a file(s) already uploaded to Lake FS, simply repeat steps 1 and 2, and 5 through 12. 
 
-## Upload using Amazon's CLI
+## Upload using s3 tool (Amazon's CLI)
+1. Install AWS CLI Toolkit:
+   * Follow the steps at [AWS CLI Installation](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) Guide to install the AWS CLI toolkit.
+2. Set up AWS Profile:
+   * Open a new terminal.
+   * Configure a profile for LakeFS using your access key and secret key:
+   ```bash
+   aws configure --profile lakefs
+   ```
+   Creating a profile makes it easier to switch between different AWS services and LakeFS.
+
+3. Create a LakeFS Repository:
+   * Visit the [LakeFS Web Interface](https://frink-lakefs.apps.renci.org).
+   * Create a new repository to manage your data. A default main branch will be created for the new repository.
+
+4. Upload Files to the Repository:
+   * In the terminal, upload files to the new repository on the main branch:
+   ```bash
+   aws s3 cp my-local-dataset.hdt s3://my-repo/main/my-local-graph.hdt --endpoint="https://frink-lakefs.apps.renci.org" --profile lakefs
+   ```
+
+5. Commit the Upload:
+   * In the web browser, go to your repository.
+   * Navigate to the Uncommitted Changes tab.
+   * Click on "Commit" and provide an appropriate commit message.
+
+6. Optional: Mark as a Release and Create Tags:
+   * If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
+
+More details can be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
+
+
+>  Note that other s3 clients. Other possible options are listed [here](https://docs.lakefs.io/howto/copying.html).
 
 
 
-## Upload using the Lake FS CLI
+
+For more ways to integrate to LakeFS, look at the [LakeFS integration Documentation](https://docs.lakefs.io/integrations/).
 

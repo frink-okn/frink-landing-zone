@@ -1,12 +1,15 @@
 # How to Upload Your Graph to Lake FS
 Theme 1 Teams, there are several ways to upload your graph to Lake FS. Instructions for two of the several ways is provided below.
 
+:point_right: For each method, you will need to request credentials for accessing Lake FS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org. 
 
 [Upload through the website](#upload-through-the-website)
 
 [Upload using Amazon's Command Line Interface (CLI)](#upload-using-s3-tool-amazons-cli)
 
-For each method, you will need to request credentials for accessing Lake FS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org. 
+[Upload using the Lake FS Command Line Interface (CLI)]
+
+
 
 ## Upload through the website
 

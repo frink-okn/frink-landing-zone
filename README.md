@@ -18,16 +18,16 @@ Can I use html here? <a href="https://www.unc.edu/">UNC</a>
 
 3. We request that you create one repository (repo) for each unique dataset (i.e., graph). Along with lakeFS' tagging system, this enables us to properly track versions of your graph. So when visiting lakeFS for the first time, please click the **Create Repository** button to create a new repo.
 
-Markdown in assets
+Markdown in assets<br />
 ![](/assets/1create-repo-button.png)
 
-Markdown in images
+Markdown in images<br />
 ![](/assets/images/1create-repo-button.png)
 
-HTML image in assets
+HTML image in assets<br />
 <img src="assets/1create-repo-button.png" width="200" height="100">
 
-HTML image in images 
+HTML image in images <br />
 <img src="assets/images/1create-repo-button.png">
 
 

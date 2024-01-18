@@ -60,7 +60,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 To upload a new version of a file(s) already uploaded to lakeFS, simply repeat steps 1 and 2, and 5 through 12. 
 
-See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more information. 
+<span style='font-size:20px;'>&#128204;</span> <font color="#3366CC">See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more information.</font> 
 
 ## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
 1. Install the AWS CLI Toolkit.

@@ -5,7 +5,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 - [Upload through the website](#upload-through-the-website)
 
-- [Upload using Amazon's S3 Command Line Interface (CLI) Tool](#upload-using-s3-tool-amazons-cli)
+- [Upload using Amazon's S3 Command Line Interface (CLI) Tool](#upload-using-amazons-s3-command-line-interface-cli-tool)
 
 
 ## Upload through the website

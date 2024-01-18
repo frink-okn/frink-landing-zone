@@ -64,7 +64,7 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
 
 ## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
 1. Install the AWS CLI Toolkit.
-   * Follow the steps in the [AWS CLI Installation](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) guide to install the AWS CLI toolkit.
+   * Follow the steps in the [AWS CLI installation guide](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) to install the AWS CLI toolkit.
 2. Set up an AWS profile.
    * Open a new terminal.
    * Configure a profile for lakeFS using your **Access Key ID** and **Secret Access Key**:
@@ -74,8 +74,14 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
    :pointing_right: _**Creating a profile makes it easier to switch between different AWS services and lakeFS.**_
 
 3. Create a lakeFS repository.
-   * Visit the [Frink Landing Zone on lakeFS](https://frink-lakefs.apps.renci.org).
-   * Create a new repository to manage your data (i.e., graph). A default main branch will be created for the new repository.
+   * Visit the [Frink Landing Zone on lakeFS](https://frink-lakefs.apps.renci.org) in a web browser.
+   * Click the **Create Repository** button to create a new repo.
+
+      <img width=20% alt="Create Repository button" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/1create-repo-button.png">
+      
+   * The **Create A New Repository** pop-up window will appear asking you for a **Repository ID**. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the **Create Repository** button.
+
+     <img width="60%" alt="Create A New Respository pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/2create-repo-popup.png">
 
 4. Upload files to the repository.
    * In the terminal, upload files to the new repository on the main branch:
@@ -84,9 +90,9 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
    ```
 
 5. Commit the upload.
-   * In the web browser, go to your repository.
-   * Navigate to the Uncommitted Changes tab.
-   * Click on "Commit" and provide an appropriate commit message.
+   * Back in the web browser, go to your repository.
+   * Navigate to the **Uncommitted Changes** tab.
+   * Click on **Commit** and provide an appropriate commit message.
 
 6. Optional: Mark as a release and create tags.
    * If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.

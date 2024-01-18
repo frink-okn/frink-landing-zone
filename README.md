@@ -1,14 +1,11 @@
 # How to Upload Your Graph to the Frink Landing Zone
-Theme 1 Teams, there are three ways to upload your graph to the Frink Landing Zone. 
+Theme 1 Teams, there are several ways to upload your graph to the Frink Landing Zone. We recommend uploading through the website for smaller files and using Amazon's S3 Tool for larger files or for automating the process.
 
 :point_right: For each method, you will need to request credentials for accessing Lake FS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org. 
 
-[Upload through the website](#upload-through-the-website)
+- [Upload through the website](#upload-through-the-website)
 
-[Upload using Amazon's S3 Command Line Interface (CLI) Tool](#upload-using-s3-tool-amazons-cli)
-
-[Upload using the Lake FS Command Line Interface (CLI)]
-
+- [Upload using Amazon's S3 Command Line Interface (CLI) Tool](#upload-using-s3-tool-amazons-cli)
 
 
 ## Upload through the website
@@ -33,7 +30,7 @@ Theme 1 Teams, there are three ways to upload your graph to the Frink Landing Zo
 
     <img width=35% alt="Upload Object pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/4upload-object-popup.png">
 
-   <span style="color:#3366CC">_Repeat this step for each file you need to upload._</span>
+   :point_right: _**Repeat this step for each file you need to upload.**_
 
 7. Your upload is not complete until you commit the change to Lake FS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.
 
@@ -63,7 +60,7 @@ Theme 1 Teams, there are three ways to upload your graph to the Frink Landing Zo
 
 To upload a new version of a file(s) already uploaded to Lake FS, simply repeat steps 1 and 2, and 5 through 12. 
 
-## Upload Using s3 tool (Amazon's CLI)
+## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
 1. Install AWS CLI Toolkit:
    * Follow the steps at [AWS CLI Installation](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) Guide to install the AWS CLI toolkit.
 2. Set up AWS Profile:
@@ -98,7 +95,7 @@ More details can be found [here](https://docs.lakefs.io/integrations/aws_cli.htm
 >  [!Note]
    This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).
 
-## Upload using the Lake FS Command Line Interface (CLI)
+
 
 You may also use the Lake FS Command Line Interface tool, however this is not a good option if you use a Windows machine. at the [LakeFS integration Documentation](https://docs.lakefs.io/integrations/).
 

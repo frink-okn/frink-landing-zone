@@ -32,7 +32,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
     <img src="assets/4upload-object-popup.png" width="35%">
 
-   <span style='font-size:100px;'>&#128073;</span> _**Repeat this step for each file you need to upload.**_
+   <span style='font-size:50px;'>&#128204;</span> _**Repeat this step for each file you need to upload.**_
 
 8. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.
 
@@ -52,7 +52,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
     <img src="assets/10tag-popup.png" width="40%">
     
-    <span style='font-size:100px;'>&#128073;</span> _**You may use other branches if you wish, just be sure to merge those branches back to main.**_
+    <span style='font-size:50px;'>&#128204;</span> _**You may use other branches if you wish, just be sure to merge those branches back to main.**_
 
 14. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
 
@@ -105,5 +105,5 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
 
 More details about the AWS CLI be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
 
-<span style='font-size:100px;'>&#10071;</span> This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).
+<span style='font-size:50px;'>&#10071;</span> This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).
 

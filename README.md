@@ -20,7 +20,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 5. The **Create A New Repository** pop-up window will appear asking you for a **Repository ID**. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the **Create Repository** button.
 
-   <img width="60%" alt="Create A New Respository pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/2create-repo-popup.png">
+   <img width="60%" alt="Create A New Respository pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/docs/assets/images/2create-repo-popup.png">
 
 6. Now that the repo has been created, click the **Upload Object** button to upload your dataset/graph.
 

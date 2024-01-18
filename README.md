@@ -1,7 +1,7 @@
 # How to Upload Your Graph to the Frink Landing Zone
 Theme 1 Teams, there are several ways to upload your graph to the Frink Landing Zone found on lakeFS. We recommend uploading through the website for smaller files and using Amazon's S3 Tool for larger files or for automating the process.
 
-<span style='font-size:100px;'>&#128073;</span> 
+<span style='font-size:50px;'>&#128273;</span> 
 
 UPDATE &#128273; For each method, you will need to request credentials for accessing lakeFS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org. 
 

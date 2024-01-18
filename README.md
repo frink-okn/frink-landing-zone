@@ -24,7 +24,7 @@ Markdown in assets<br />
 Markdown in images<br />
 ![](/assets/images/1create-repo-button.png)
 
-HTML image in assets<br />
+HTML image in assets with %<br />
 <img src="assets/1create-repo-button.png" width="30%">
 
 HTML image in images <br />

@@ -1,5 +1,5 @@
 # How to Upload Your Graph to Lake FS
-Theme 1 Teams, there are several ways to upload your graph to Lake FS. Instructions for two of those three ways is provided below.
+Theme 1 Teams, there are several ways to upload your graph to Lake FS. Instructions for two of the several ways is provided below.
 
 Upload through the website
 

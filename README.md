@@ -101,7 +101,7 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
 6. Optional: Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
 
 
-More details about the AWS CLI be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
+<span style='font-size:20px;'>&#128204;</span> More details about the AWS CLI be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
 
 <span style='font-size:20px;'>&#128204;</span> This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).
 

@@ -18,7 +18,11 @@ Can I use html here? <a href="https://www.unc.edu/">UNC</a>
 
 3. We request that you create one repository (repo) for each unique dataset (i.e., graph). Along with lakeFS' tagging system, this enables us to properly track versions of your graph. So when visiting lakeFS for the first time, please click the **Create Repository** button to create a new repo.
 
-<img width=20% alt="HTML image" src="assets/1create-repo-button.png">
+   
+
+
+
+   <img width=20% alt="HTML image" src="assets/1create-repo-button.png">
 
 
 5. The **Create A New Repository** pop-up window will appear asking you for a **Repository ID**. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the **Create Repository** button.

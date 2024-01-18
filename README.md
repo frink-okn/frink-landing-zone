@@ -50,7 +50,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
     <img src="assets/10tag-popup.png" width="40%">
     
-    <span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>You may use other branches if you wish, just be sure to merge those branches back to main.**_</strong></font>
+    <span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>You may use other branches if you wish, just be sure to merge those branches back to main.</strong></font>
 
 14. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
 

@@ -25,7 +25,7 @@ Markdown in images<br />
 ![](/assets/images/1create-repo-button.png)
 
 HTML image in assets<br />
-<img src="assets/1create-repo-button.png" width="200" height="100">
+<img src="assets/1create-repo-button.png" width="30%">
 
 HTML image in images <br />
 <img src="assets/images/1create-repo-button.png">

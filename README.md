@@ -101,7 +101,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 6. Optional: Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
 
 
-<span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>More details about using the AWS CLI can be found on <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS CLI</a>.</strong></font> 
+<span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS CLI</a>.</strong></font> 
 
-<span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>This could work with other s3 clients. Possible options are also listed on<a href="https://docs.lakefs.io/howto/copying.html">Copying Data to/from lakeFS</a>.</strong></font>
+<span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data to/from lakeFS</a>.</strong></font>
 

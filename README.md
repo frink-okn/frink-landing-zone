@@ -4,9 +4,9 @@ Theme 1 Teams, there are several ways to upload your graph to Lake FS. Instructi
 
 [Upload through the website](#upload-through-the-website)
 
-[Upload using Amazon's Command Line Interface (CLI)]
+[Upload using Amazon's Command Line Interface (CLI)](#upload-using-s3-tool-amazons-cli)
 
-For each method you will need to request credentials for accessing Lake FS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yahpet at kebedey at renci dot org. 
+For each method, you will need to request credentials for accessing Lake FS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org. 
 
 ## Upload through the website
 
@@ -91,7 +91,8 @@ To upload a new version of a file(s) already uploaded to Lake FS, simply repeat 
 More details can be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
 
 
->  Note that other s3 clients. Other possible options are listed [here](https://docs.lakefs.io/howto/copying.html).
+>  [!Note]
+   This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).
 
 
 

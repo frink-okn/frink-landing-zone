@@ -65,14 +65,12 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
 ## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
 1. Install the AWS CLI Toolkit.
    * Follow the steps in the [AWS CLI installation guide](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) to install the AWS CLI toolkit.
-2. Set up an AWS profile.
+2. Set up an AWS profile. Creating a profile makes it easier to switch between different AWS services and lakeFS.
    * Open a new terminal.
    * Configure a profile for lakeFS using your **Access Key ID** and **Secret Access Key**:
-   ```bash
-   aws configure --profile lakefs
-   ```
-   :pointing_right: _**Creating a profile makes it easier to switch between different AWS services and lakeFS.**_
-
+     ```bash
+     aws configure --profile lakefs
+     ```
 3. Create a lakeFS repository.
    * Visit the [Frink Landing Zone on lakeFS](https://frink-lakefs.apps.renci.org) in a web browser.
    * Click the **Create Repository** button to create a new repo.
@@ -85,9 +83,9 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
 
 4. Upload files to the repository.
    * In the terminal, upload files to the new repository on the main branch:
-   ```bash
-   aws s3 cp my-local-dataset.hdt s3://my-repo/main/my-local-graph.hdt --endpoint="https://frink-lakefs.apps.renci.org" --profile lakefs
-   ```
+     ```bash
+     aws s3 cp my-local-dataset.hdt s3://my-repo/main/my-local-graph.hdt --endpoint="https://frink-lakefs.apps.renci.org" --profile lakefs
+     ```
 
 5. Commit the upload.
    * Back in the web browser, go to your repository.
@@ -100,8 +98,8 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
      <img width="40%" alt="Commit Changes pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/7commit-changes-popup.png">
 
 
-6. Optional: Mark as a release and create tags.
-   * If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
+6. Optional: Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
+
 
 More details about the AWS CLI be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
 

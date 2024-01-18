@@ -1,0 +1,105 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><h1 id="how-to-upload-your-graph-to-the-frink-landing-zone">How to Upload Your Graph to the Frink Landing Zone</h1>
+<p>Theme 1 Teams, there are several ways to upload your graph to the Frink Landing Zone found on lakeFS. We recommend uploading through the website for smaller files and using Amazon&#39;s S3 Tool for larger files or for automating the process.</p>
+<p>:point_right: For each method, you will need to request credentials for accessing lakeFS. These credentials are an <strong>Access Key ID</strong> and a <strong>Secret Access Key</strong>. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org. </p>
+<ul>
+<li><p><a href="#upload-through-the-website">Upload through the website</a></p>
+</li>
+<li><p><a href="#upload-using-amazons-s3-command-line-interface-cli-tool">Upload using Amazon&#39;s S3 Command Line Interface (CLI) Tool</a></p>
+</li>
+</ul>
+<h2 id="upload-through-the-website">Upload through the website</h2>
+<ol>
+<li><p>Navigate to <a href="https://frink-lakefs.apps.renci.org/">https://frink-lakefs.apps.renci.org/</a></p>
+</li>
+<li><p>Enter your <strong>Access Key ID</strong> and your <strong>Secret Access Key</strong> to log in.</p>
+</li>
+<li><p>We request that you create one repository (repo) for each unique dataset (i.e., graph). Along with lakeFS&#39; tagging system, this enables us to properly track versions of your graph. So when visiting lakeFS for the first time, please click the <strong>Create Repository</strong> button to create a new repo.</p>
+<p><img width=20% alt="Create Repository button" src="https://github.com/frink-okn/frink-landing-zone/blob/main/docs/assets/images/1create-repo-button.png?raw=true"></p>
+</li>
+<li><p>The <strong>Create A New Repository</strong> pop-up window will appear asking you for a <strong>Repository ID</strong>. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the <strong>Create Repository</strong> button.</p>
+<p><img width="60%" alt="Create A New Respository pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/2create-repo-popup.png"></p>
+</li>
+<li><p>Now that the repo has been created, click the <strong>Upload Object</strong> button to upload your dataset/graph.</p>
+<p><img width="60%" alt="Upload Object button" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/3upload-object-button.png"></p>
+</li>
+<li><p>The <strong>Upload Object</strong> pop-up window will appear offering you the option to drag and drop a single file from your desktop to the pop-up window. Once your file appears in the pop-up, click the <strong>Upload</strong> button to complete the upload. (Although there is a <strong>Path</strong> text field, it will not recognize a file path on your local machine. So please use the drag and drop feature.)</p>
+<p> <img width=35% alt="Upload Object pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/4upload-object-popup.png"></p>
+<p>:point<em>right: </em><strong>Repeat this step for each file you need to upload.</strong>_</p>
+</li>
+<li><p>Your upload is not complete until you commit the change to lakeFS. Click the <strong>Uncommitted Changes</strong> tab and you will see the upload you made in the previous steps. Click the <strong>Commit Changes</strong> button.</p>
+<p> <img width="70%" alt="Uncommited Changes tab" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/5uncommitted-changes-tab.png"></p>
+</li>
+<li><p>The <strong>Commit Changes</strong> pop-up window will appear. Please enter a <strong>Commit Message</strong> providing information about the nature of your upload. We suggest you include your name in case multiple individuals from your team are uploading files to lakeFS. The date and time will be recorded automatically.</p>
+<p> <img width="40%" alt="Commit Changes pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/7commit-changes-popup.png"></p>
+</li>
+<li><p>To mark the file(s) you uploaded in the above steps with a particular version number, you will need to create a <strong>Tag</strong>. Click on the <strong>Tags</strong> tab to do so.</p>
+<p><img width="70%" alt="Tags tab" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/9tags-tab-button.png"></p>
+</li>
+<li><p>Once you are on the <strong>Tags</strong> tab, click the <strong>Create Tag</strong> button. For more information on Lake FS tags, see <a href="https://docs.lakefs.io/understand/model.html">https://docs.lakefs.io/understand/model.html</a></p>
+</li>
+<li><p>The <strong>Create Tag</strong> pop-up window will appear. Input a <strong>Tag Name</strong> in the field provided. It is sufficient to do this on the main branch.</p>
+<p><img width="40%" alt="Create Tag pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/10tag-popup.png"></p>
+<p>:point<em>right: </em><strong>You may use other branches if you wish, just be sure to merge those branches back to main.</strong>_</p>
+</li>
+<li><p>A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the <strong>Objects</strong> tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.</p>
+<p><img width="40%" alt="Committed changes by tag" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/11change-committed-per-tag.png"></p>
+</li>
+</ol>
+<p><br /> </p>
+<p>To upload a new version of a file(s) already uploaded to lakeFS, simply repeat steps 1 and 2, and 5 through 12. </p>
+<p>See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart</a> guide for more information. </p>
+<h2 id="upload-using-amazon-s-s3-command-line-interface-cli-tool">Upload Using Amazon&#39;s S3 Command Line Interface (CLI) Tool</h2>
+<ol>
+<li>Install the AWS CLI Toolkit.<ul>
+<li>Follow the steps in the <a href="https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html">AWS CLI installation guide</a> to install the AWS CLI toolkit.</li>
+</ul>
+</li>
+<li>Set up an AWS profile. Creating a profile makes it easier to switch between different AWS services and lakeFS.<ul>
+<li>Open a new terminal.</li>
+<li>Configure a profile for lakeFS using your <strong>Access Key ID</strong> and <strong>Secret Access Key</strong>:<pre><code class="lang-bash">aws configure <span class="hljs-comment">--profile lakefs</span>
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>Create a lakeFS repository.</p>
+<ul>
+<li>Visit the <a href="https://frink-lakefs.apps.renci.org">Frink Landing Zone on lakeFS</a> in a web browser.</li>
+<li><p>Click the <strong>Create Repository</strong> button to create a new repo.</p>
+<p> <img width=20% alt="Create Repository button" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/1create-repo-button.png"></p>
+</li>
+<li><p>The <strong>Create A New Repository</strong> pop-up window will appear asking you for a <strong>Repository ID</strong>. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the <strong>Create Repository</strong> button.</p>
+<p><img width="60%" alt="Create A New Respository pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/2create-repo-popup.png"></p>
+</li>
+</ul>
+</li>
+<li><p>Upload files to the repository.</p>
+<ul>
+<li>In the terminal, upload files to the new repository on the main branch:<pre><code class="lang-bash">aws s3 cp <span class="hljs-keyword">my</span>-<span class="hljs-keyword">local</span>-dataset.hdt s3:<span class="hljs-regexp">//my</span>-repo/main/<span class="hljs-keyword">my</span>-<span class="hljs-keyword">local</span>-graph.hdt --endpoint=<span class="hljs-string">"https://frink-lakefs.apps.renci.org"</span> --profile lakefs
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>Commit the upload.</p>
+<ul>
+<li>Back in the web browser, go to your repository.</li>
+<li><p>Navigate to the <strong>Uncommitted Changes</strong> tab. Click the <strong>Commit Changes</strong> button.</p>
+<p><img width="70%" alt="Uncommited Changes tab" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/5uncommitted-changes-tab.png"></p>
+</li>
+<li><p>The <strong>Commit Changes</strong> pop-up window will appear. Please enter an appropriate <strong>Commit Message</strong>.</p>
+<p><img width="40%" alt="Commit Changes pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/7commit-changes-popup.png"></p>
+</li>
+</ul>
+</li>
+</ol>
+<ol>
+<li>Optional: Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the <strong>Upload through the website</strong> section above.</li>
+</ol>
+<p>More details about the AWS CLI be found <a href="https://docs.lakefs.io/integrations/aws_cli.html">here</a>. </p>
+<blockquote>
+<p> [!Note]
+   This could work with other s3 clients. Possible options are also listed <a href="https://docs.lakefs.io/howto/copying.html">here</a>.</p>
+</blockquote>
+</body></html>

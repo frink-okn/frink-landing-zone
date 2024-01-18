@@ -30,7 +30,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
     <img src="assets/4upload-object-popup.png" width="35%">
 
-   <span style='font-size:20px;'>&#128204;</span> <font color="#3366CC">_**Repeat this step for each file you need to upload.**_</font>
+   <span style='font-size:20px;'>&#128204;</span> <font color="#3366CC"><strong>Repeat this step for each file you need to upload.</strong></font>
 
 8. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.
 
@@ -50,7 +50,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
     <img src="assets/10tag-popup.png" width="40%">
     
-    <span style='font-size:20px;'>&#128204;</span> <font color="#3366CC">_**You may use other branches if you wish, just be sure to merge those branches back to main.**_</font>
+    <span style='font-size:20px;'>&#128204;</span> <font color="#3366CC"><strong>You may use other branches if you wish, just be sure to merge those branches back to main.**_</strong></font>
 
 14. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
 
@@ -58,9 +58,9 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 <br /> 
 
-To upload a new version of a file(s) already uploaded to lakeFS, simply repeat steps 1 and 2, and 5 through 12. 
+**To upload a new version of a file(s) already uploaded to lakeFS, simply repeat steps 1 and 2, and 5 through 12. **
 
-<span style='font-size:20px;'>&#128204;</span> <font color="#3366CC">See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more information.</font> 
+<span style='font-size:20px;'>&#128204;</span> <font color="#3366CC"><strong>See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more information.</strong></font> 
 
 ## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
 1. Install the AWS CLI Toolkit.
@@ -101,7 +101,7 @@ To upload a new version of a file(s) already uploaded to lakeFS, simply repeat s
 6. Optional: Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
 
 
-<span style='font-size:20px;'>&#128204;</span> <font color="#3366CC">More details about the AWS CLI be found [here](https://docs.lakefs.io/integrations/aws_cli.html).</font> 
+<span style='font-size:20px;'>&#128204;</span> <font color="#3366CC"><strong>More details about the AWS CLI be found [here](https://docs.lakefs.io/integrations/aws_cli.html).</strong></font> 
 
-<span style='font-size:20px;'>&#128204;</span> <font color="#3366CC">This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).</font>
+<span style='font-size:20px;'>&#128204;</span> <font color="#3366CC"><strong>This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).</strong></font>
 

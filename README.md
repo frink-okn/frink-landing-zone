@@ -91,19 +91,21 @@ See the [lakeFS QuickStart](https://docs.lakefs.io/quickstart/) guide for more i
 
 5. Commit the upload.
    * Back in the web browser, go to your repository.
-   * Navigate to the **Uncommitted Changes** tab.
-   * Click on **Commit** and provide an appropriate commit message.
+   * Navigate to the **Uncommitted Changes** tab. Click the **Commit Changes** button.
+   
+     <img width="70%" alt="Uncommited Changes tab" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/5uncommitted-changes-tab.png">
+    
+   * The **Commit Changes** pop-up window will appear. Please enter an appropriate **Commit Message**.
+
+     <img width="40%" alt="Commit Changes pop-up" src="https://github.com/frink-okn/frink-landing-zone/blob/main/img/7commit-changes-popup.png">
+
 
 6. Optional: Mark as a release and create tags.
    * If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
 
-More details can be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
+More details about the AWS CLI be found [here](https://docs.lakefs.io/integrations/aws_cli.html). 
 
 
 >  [!Note]
    This could work with other s3 clients. Possible options are also listed [here](https://docs.lakefs.io/howto/copying.html).
-
-
-
-You may also use the Lake FS Command Line Interface tool, however this is not a good option if you use a Windows machine. at the [LakeFS integration Documentation](https://docs.lakefs.io/integrations/).
 

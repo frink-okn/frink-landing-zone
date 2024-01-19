@@ -42,11 +42,11 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 10. To mark the file(s) you uploaded in the above steps with a particular version number, you will need to create a **Tag**. Click on the **Tags** tab to do so.
    
-    <img src="assets/9tags-tab-button.png" width="70%>
+    <img src="assets/9tags-tab-button.png" width="70%">
 
-11. Once you are on the **Tags** tab, click the **Create Tag** button. For more information on Lake FS tags, see [https://docs.lakefs.io/understand/model.html](https://docs.lakefs.io/understand/model.html)
+12. Once you are on the **Tags** tab, click the **Create Tag** button. For more information on Lake FS tags, see [https://docs.lakefs.io/understand/model.html](https://docs.lakefs.io/understand/model.html)
 
-12. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.
+13. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.
 
     <img src="assets/10tag-popup.png" width="40%">
     

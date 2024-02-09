@@ -3,7 +3,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 <span style='font-color:20px;'>&#128273;</span> For each method, you will need to request credentials for accessing lakeFS. These credentials are an **Access Key ID** and a **Secret Access Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at renci dot org.
 
-<font color ="#640000;'">We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.</font>
+<font color ="#640000;'">Please Note: We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.</font>
 
 - [Upload through the website](#upload-through-the-website)
 

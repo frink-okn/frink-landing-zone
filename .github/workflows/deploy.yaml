@@ -1,5 +1,10 @@
 name: Deploy MkDocs
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: [ main ]
@@ -21,4 +26,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           source: ./docs
-          branch: main
+          branch: gh-pages

@@ -1,0 +1,24 @@
+name: Deploy MkDocs
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: pip install mkdocs mkdocs-material
+
+      - name: Build the site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          source: ./docs
+          branch: main

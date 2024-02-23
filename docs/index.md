@@ -11,12 +11,6 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
    
     We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and 
     it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.
-   
-
-- [Upload through the website](#upload-through-the-website)
-
-- [Upload using Amazon's S3 Command Line Interface (CLI) Tool](#upload-using-amazons-s3-command-line-interface-cli-tool)
-
 
 ## Upload through the website
 
@@ -77,11 +71,13 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 
 !!! note
-    More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS      
-    CLI</a>.
+
+     More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS      
+     CLI</a>.
    
 
 !!! info
-   This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data
-   to/from lakeFS</a>.
+
+    This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data
+    to/from lakeFS</a>.
 

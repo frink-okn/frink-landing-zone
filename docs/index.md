@@ -35,12 +35,8 @@ Repeat this step for each file you need to upload.
 10. Once you are on the **Tags** tab, click the **Create Tag** button. For more information on Lake FS tags, see [https://docs.lakefs.io/understand/model.html#tags](https://docs.lakefs.io/understand/model.html#tags)
 11. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/10tag-popup.png)
-
-     !!! tip
-
-          You may use other branches if you wish, just be sure to merge those branches back to main.
-    
-12. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
+**You may use other branches if you wish, just be sure to merge those branches back to main.**
+13. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
     ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/11change-committed-per-tag.png)
 <br /> 
 

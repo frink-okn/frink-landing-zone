@@ -77,13 +77,11 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 
 !!! note
-
     More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS      
     CLI</a>.
    
 
 !!! info
-
    This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data
    to/from lakeFS</a>.
 

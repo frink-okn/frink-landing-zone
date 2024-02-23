@@ -6,6 +6,10 @@ theme:
     primary: light blue
 plugins:
   - search
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 nav:
   - Upload Guide: index.md
   - KG Status: kg-status.md

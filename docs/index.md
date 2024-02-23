@@ -54,6 +54,12 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
      See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart guide</a> for more information.</strong></font> 
 
 ## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
+
+!!! info
+
+     More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS      
+     CLI</a>.
+     
 1. Install the AWS CLI Toolkit.
     * Follow the steps in the [AWS CLI installation guide](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) to install the AWS CLI toolkit.
 2. Set up an AWS profile. Creating a profile makes it easier to switch between different AWS services and lakeFS.
@@ -75,14 +81,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
      ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/5uncommitted-changes-tab.png)    
     * The **Commit Changes** pop-up window will appear. Please enter an appropriate **Commit Message**.
      ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/7commit-changes-popup.png)
-6. Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above.
-
-
-!!! note
-
-     More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS      
-     CLI</a>.
-   
+6. Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above. 
 
 !!! info
 

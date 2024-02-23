@@ -24,18 +24,21 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/3upload-object-button.png)
 6. The **Upload Object** pop-up window will appear offering you the option to drag and drop a single file from your desktop to the pop-up window. Once your file appears in the pop-up, click the **Upload** button to complete the upload. (Although there is a **Path** text field, it will not recognize a file path on your local machine. So please use the drag and drop feature.)
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/4upload-object-popup.png)
-   <span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>Repeat this step for each file you need to upload.</strong></font>
-7. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.
+   
+   !!! note
+
+        Repeat this step for each file you need to upload.</strong></font>
+8. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/5uncommitted-changes-tab.png)
-8. The **Commit Changes** pop-up window will appear. Please enter a **Commit Message** providing information about the nature of your upload. We suggest you include your name in case multiple individuals from your team are uploading files to lakeFS. The date and time will be recorded automatically.
+9. The **Commit Changes** pop-up window will appear. Please enter a **Commit Message** providing information about the nature of your upload. We suggest you include your name in case multiple individuals from your team are uploading files to lakeFS. The date and time will be recorded automatically.
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/7commit-changes-popup.png)
-9. To mark the file(s) you uploaded in the above steps with a particular version number, you will need to create a **Tag**. Click on the **Tags** tab to do so.   
+10. To mark the file(s) you uploaded in the above steps with a particular version number, you will need to create a **Tag**. Click on the **Tags** tab to do so.   
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/9tags-tab-button.png)
-10. Once you are on the **Tags** tab, click the **Create Tag** button. For more information on Lake FS tags, see [https://docs.lakefs.io/understand/model.html#tags](https://docs.lakefs.io/understand/model.html#tags)
-11. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.
+11. Once you are on the **Tags** tab, click the **Create Tag** button. For more information on Lake FS tags, see [https://docs.lakefs.io/understand/model.html#tags](https://docs.lakefs.io/understand/model.html#tags)
+12. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/10tag-popup.png)
 **You may use other branches if you wish, just be sure to merge those branches back to main.**
-12. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
+13. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
     ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/11change-committed-per-tag.png)
 <br /> 
 

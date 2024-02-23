@@ -25,9 +25,10 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 6. The **Upload Object** pop-up window will appear offering you the option to drag and drop a single file from your desktop to the pop-up window. Once your file appears in the pop-up, click the **Upload** button to complete the upload. (Although there is a **Path** text field, it will not recognize a file path on your local machine. So please use the drag and drop feature.)
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/4upload-object-popup.png)
    
-   !!! note
+     !!! note
 
-        Repeat this step for each file you need to upload.</strong></font>
+        Repeat this step for each file you need to upload.
+        
 8. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/5uncommitted-changes-tab.png)
 9. The **Commit Changes** pop-up window will appear. Please enter a **Commit Message** providing information about the nature of your upload. We suggest you include your name in case multiple individuals from your team are uploading files to lakeFS. The date and time will be recorded automatically.
@@ -37,6 +38,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 11. Once you are on the **Tags** tab, click the **Create Tag** button. For more information on Lake FS tags, see [https://docs.lakefs.io/understand/model.html#tags](https://docs.lakefs.io/understand/model.html#tags)
 12. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/10tag-popup.png)
+
 !!! tip
 
      You may use other branches if you wish, just be sure to merge those branches back to main.
@@ -47,9 +49,9 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 **To upload a new version of a file(s) already uploaded to lakeFS, simply repeat steps 1 and 2, and 5 through 12.**
 
-!!! note
+     !!! note
 
-     See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart guide</a> for more information.</strong></font> 
+          See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart guide</a> for more information.</strong></font> 
 
 ## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
 1. Install the AWS CLI Toolkit.

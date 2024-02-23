@@ -23,8 +23,7 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 5. Now that the repo has been created, click the **Upload Object** button to upload your dataset/graph.   
 ![image](https://frink-okn.github.io/frink-landing-zone/assets/images/3upload-object-button.png)
 6. The **Upload Object** pop-up window will appear offering you the option to drag and drop a single file from your desktop to the pop-up window. Once your file appears in the pop-up, click the **Upload** button to complete the upload. (Although there is a **Path** text field, it will not recognize a file path on your local machine. So please use the drag and drop feature.)
-![image](https://frink-okn.github.io/frink-landing-zone/assets/images/4upload-object-popup.png)
-   
+![image](https://frink-okn.github.io/frink-landing-zone/assets/images/4upload-object-popup.png) 
 Repeat this step for each file you need to upload.
         
 7. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.

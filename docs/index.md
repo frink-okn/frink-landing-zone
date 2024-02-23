@@ -50,7 +50,7 @@ Repeat this step for each file you need to upload.
 
 !!! info
 
-     More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS      
+     More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS     
      CLI</a>.
      
 1. Install the AWS CLI Toolkit.

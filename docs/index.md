@@ -3,13 +3,13 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 > !!! note
 > 
-> For each method, you will need to request credentials for accessing lakeFS. These credentials are an **Access Key ID** and a **Secret Access
+>For each method, you will need to request credentials for accessing lakeFS. These credentials are an **Access Key ID** and a **Secret Access
 > Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack Channel or by emailing Yaphet at kebedey at
 >renci dot org.
 
-!!! note
-   We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and
-   it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.
+>!!! note
+>We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and
+>it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.
    
 
 - [Upload through the website](#upload-through-the-website)
@@ -46,9 +46,9 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 **To upload a new version of a file(s) already uploaded to lakeFS, simply repeat steps 1 and 2, and 5 through 12.**
 
-!!! note
-
-   See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart guide</a> for more information.</strong></font> 
+>!!! note
+>
+>   See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart guide</a> for more information.</strong></font> 
 
 ## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
 1. Install the AWS CLI Toolkit.

@@ -70,3 +70,8 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
 
 <span style='font-size:20px;'>&#128204;</span> <font color="#992B27"><strong>This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data to/from lakeFS</a>.</strong></font>
 
+!!! note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.

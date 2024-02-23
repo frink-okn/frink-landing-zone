@@ -7,10 +7,10 @@ Theme 1 Teams, there are several ways to upload your graph to the Frink Landing 
     Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack channel or by emailing Yaphet at kebedey at
     renci dot org.
 
-   !!! note
+!!! note
    
-   We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and
-   it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.
+    We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and 
+    it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.
    
 
 - [Upload through the website](#upload-through-the-website)

@@ -10,7 +10,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - sane_lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 nav:
   - Upload Guide: index.md
   - KG Status: kg-status.md

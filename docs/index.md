@@ -1,5 +1,5 @@
-# How to Upload Your Graph to the Frink Landing Zone
-Theme 1 Teams, there are several ways to upload your graph to the Frink Landing Zone found on lakeFS. We recommend uploading through the website for smaller files and using Amazon's S3 Tool for larger files or for automating the process. 
+# How to Upload Your Graph to the FRINK Landing Zone
+Theme 1 Teams, there are several ways to upload your graph to the FRINK Landing Zone found on lakeFS. We recommend uploading through the website for smaller files and using Amazon's S3 Tool for larger files or for automating the process. 
 
 !!! note
 

@@ -1,9 +1,19 @@
-site_name: "FRINK Landing zone"
+site_name: "FRINK Landing Zone"
 theme:
   name: material
   palette:
     scheme: default
     primary: light blue
+  features: 
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.indexes
 plugins:
   - search
 markdown_extensions:
@@ -14,7 +24,11 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 nav:
-  - Upload Guide: index.md
-  - KG Status: kg-status.md
-site_url: https://frink-okn.github.io/frink-landing-zone/
+  - Home: index.md
+  - Help:
+    - help/index.md
+    - Upload Guide: help/upload-to-lakefs.md
+  - KG Status:
+    - kgs/index.md
+site_url: https://frink-okn.github.io
 repo_url: https://github.com/frink-okn/frink-landing-zone/

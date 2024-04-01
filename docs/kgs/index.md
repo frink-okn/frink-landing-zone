@@ -11,4 +11,5 @@
 | ubergraph                             | [https://frink-lakefs.apps.renci.org/repositories/ubergraph/objects](https://frink-lakefs.apps.renci.org/repositories/ubergraph/objects)                                                         | hdt    |
 | urban-flooding-open-knowledge-network | [https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects](https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects) | nq     |
 | wikidata                              | [https://frink-lakefs.apps.renci.org/repositories/wikidata/objects](https://frink-lakefs.apps.renci.org/repositories/wikidata/objects)                                                           | hdt    |
+| Pilot-graph                              | [https://frink-lakefs.apps.renci.org/repositories/pilot-graph/objects](https://frink-lakefs.apps.renci.org/repositories/pilot-graph/objects)                                                           | ttl    |
 

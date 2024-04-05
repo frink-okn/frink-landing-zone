@@ -27,6 +27,7 @@ nav:
   - Home: index.md
   - Help:
     - help/index.md
+    - Query Page Guide: help/query-page.md
     - Upload Guide: help/upload-to-lakefs.md
   - KG Status:
     - kgs/index.md

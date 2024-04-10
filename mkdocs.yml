@@ -34,5 +34,6 @@ nav:
   - The Open Knowledge Network:
     - okn/index.md
     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
+    - Upload Your Graph to the FRINK Landing Zone: help/upload-to-lakefs.md
 site_url: https://frink-okn.github.io
 repo_url: https://github.com/frink-okn/frink-landing-zone/

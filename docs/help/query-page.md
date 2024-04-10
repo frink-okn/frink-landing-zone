@@ -1,6 +1,6 @@
-# How to use FRINK Query Page
+# Query FRINK using Comunica
 
-FRINK  has a query page that is build using [Comunica](https://comunica.dev/), a knowledge graph querying framework.
+FRINK  has a query page that is built using [Comunica](https://comunica.dev/), a knowledge graph querying framework.
 The query page can be accessed at [https://frink.apps.renci.org](https://frink.apps.renci.org).
 
 ###  Data Sources

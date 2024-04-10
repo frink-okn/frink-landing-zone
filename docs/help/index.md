@@ -1,6 +1,7 @@
-# FRINK Help
+# FRINK Quick Start Guide
+This section offers assistance for using various FRINK services.
 
-This section offers assistance for utilizing various features within FRINK.
+- Learn how to [Upload Your Graph to the FRINK Landing Zone](upload-to-lakefs.md) on lakeFS 
+- Learn how to [Query FRINK using Comunica](query-page.md) 
 
-- [Query Page](query-page.md)
-- [Uploading Guide](upload-to-lakefs.md)
+	

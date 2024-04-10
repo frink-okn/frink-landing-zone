@@ -25,10 +25,12 @@ markdown_extensions:
       custom_checkbox: true
 nav:
   - Home: index.md
-  - Help:
+  - Quick Start Guide:
     - help/index.md
-    - Query Page Guide: help/query-page.md
-    - Upload Guide: help/upload-to-lakefs.md
+    - Upload Your Graph to the FRINK Landing Zone: help/upload-to-lakefs.md
+    - Query the OKN: help/query-page.md
+  - KG Authoring Guidance:
+    - guidance/index.md
   - KG Status:
     - kgs/index.md
 site_url: https://frink-okn.github.io

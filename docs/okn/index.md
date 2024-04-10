@@ -7,5 +7,3 @@ An open knowledge network is a publicly accessible, interconnected set of data r
 NASA, NIH, the National Institute of Justice, NOAA and the U.S. Geological Survey are partnering with NSF on this effort and will work closely with the awardees to ensure that Proto-OKN supports each agency’s data strategy while addressing use cases associated with agency data. An additional 15 U.S. federal and state agencies have shown interest in collaborating with the 18 awardees. FRINK is one such awardee.
 
 For more information about the larger effort, visit the main PROTO-OKN website: [https://www.proto-okn.net/](https://www.proto-okn.net/)
-
-- [Upload Your Graph to the FRINK Landing Zone](https://frink-okn.github.io/frink-landing-zone/help/upload-to-lakefs/)

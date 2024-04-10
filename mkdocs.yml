@@ -31,7 +31,8 @@ nav:
     - Query the OKN: help/query-page.md
   - KG Authoring Guidance:
     - guidance/index.md
-  - KG Status:
-    - kgs/index.md
+  - The Open Knowledge Network:
+    - okn/index.md
+    - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
 site_url: https://frink-okn.github.io
 repo_url: https://github.com/frink-okn/frink-landing-zone/

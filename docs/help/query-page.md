@@ -37,29 +37,29 @@ Results of the query will be shown in the `Query results` section of the page. U
 The following knowledge graphs are currently available within FRINK. The SPARQL endpoints are service endpoints only (no user interface). You can query them via the FRINK query page, or using a third party SPARQL tool such as [Yasgui](https://yasgui.triply.cc). The TPF endpoints are service endpoints but also provide a browser UI.
 
 - DREAM-KG
-  - SPARQL: `https://frink.apps.renci.org/dreamkg/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/dreamkg`
+    - SPARQL: `https://frink.apps.renci.org/dreamkg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/dreamkg`
 - SCALES
-  - SPARQL: `https://frink.apps.renci.org/scales/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/scales`
+    - SPARQL: `https://frink.apps.renci.org/scales/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/scales`
 - SemOpenAlex (via CollabNext)
-  - SPARQL: `https://frink.apps.renci.org/semopenalex/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/semopenalex`
+    - SPARQL: `https://frink.apps.renci.org/semopenalex/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/semopenalex`
 - SOC-KG
-  - SPARQL: `https://frink.apps.renci.org/sockg/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/sockg`
+    - SPARQL: `https://frink.apps.renci.org/sockg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/sockg`
 - SUD-OKN
-  - SPARQL: `https://frink.apps.renci.org/sudokn/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/sudokn`
+    - SPARQL: `https://frink.apps.renci.org/sudokn/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/sudokn`
 - UF-OKN
-  - SPARQL: `https://frink.apps.renci.org/ufokn/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/ufokn`
+    - SPARQL: `https://frink.apps.renci.org/ufokn/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/ufokn`
 - Ubergraph
-  - SPARQL: `https://frink.apps.renci.org/ubergraph/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/ubergraph`
+    - SPARQL: `https://frink.apps.renci.org/ubergraph/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/ubergraph`
 - Wikidata
-  - SPARQL: `https://frink.apps.renci.org/wikidata/sparql`
-  - TPF: `https://frink.apps.renci.org/ldf/wikidata`
+    - SPARQL: `https://frink.apps.renci.org/wikidata/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/wikidata`
 
 ### Federated query
 - SPARQL: `https://frink.apps.renci.org/federation/sparql`

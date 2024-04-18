@@ -26,7 +26,7 @@ queries can be selected using the `pick a query` dropdown. In addition to these 
 
 #### Federated query (query over multiple sources)
 
-As stated above, multiple data sources can be selected prior to querying. When querying over multiple sources, the query engine executes the query within the user's browser, accessing data from each source's TPF endpoint. This will typically be slower than submitting a SPARQL query to a single endpoint; however there is no query timeout. If the user wishes to query over all available data sources, a faster option is to select the source labelled "Federation" (and deselect all other sources). This will submit the query to a server-side endpoint federating all sources. In the future we plan to allow arbitrary combinations of sources to execute using the faster server-side query engine.
+As stated above, multiple data sources can be selected prior to querying. When querying over multiple sources, the query engine executes the query within the user's browser, accessing data from each source's TPF endpoint. This will typically be slower than submitting a SPARQL query to a single endpoint; however there is no query timeout. If the user wishes to query over all available data sources, a faster option is to select the source labelled "FRINK Federated SPARQL" (and deselect all other sources). This will submit the query to a server-side endpoint federating all sources. In the future we plan to allow arbitrary combinations of sources to execute using the faster server-side query engine.
 
 ### Query Results
 

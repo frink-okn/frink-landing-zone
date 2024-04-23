@@ -1,6 +1,7 @@
 # Querying knowledge graphs in FRINK
 
 FRINK deploys standardized API endpoints for each hosted knowledge graph. Currently FRINK provides the following kinds of APIs:
+
 - [SPARQL](https://www.w3.org/TR/sparql11-query/): SPARQL is the standard graph querying language for RDF datasets.
 - [TPF](https://linkeddatafragments.org/specification/triple-pattern-fragments/): TPF (Triple Pattern Fragments) is a low-cost interface to RDF datasets that supports querying a single triple pattern at a time.
 

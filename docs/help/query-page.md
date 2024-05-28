@@ -39,6 +39,9 @@ Results of the query will be shown in the `Query results` section of the page. U
 
 The following knowledge graphs are currently available within FRINK. The SPARQL endpoints are service endpoints only (no user interface). You can query them via the FRINK query page, or using a third party SPARQL tool such as [Yasgui](https://yasgui.triply.cc). The TPF endpoints are service endpoints but also provide a browser UI.
 
+- climatepub4-kg
+    - SPARQL: `https://frink.apps.renci.org/climatepub4kg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/climatepub4kg`
 - DREAM-KG
     - SPARQL: `https://frink.apps.renci.org/dreamkg/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/dreamkg`

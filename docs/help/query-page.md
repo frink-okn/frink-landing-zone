@@ -48,6 +48,9 @@ The following knowledge graphs are currently available within FRINK. The SPARQL 
 - SCALES
     - SPARQL: `https://frink.apps.renci.org/scales/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/scales`
+- Secure Chain KG
+    - SPARQL: `https://frink.apps.renci.org/securechainkg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/securechainkg`
 - SemOpenAlex (via CollabNext)
     - SPARQL: `https://frink.apps.renci.org/semopenalex/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/semopenalex`

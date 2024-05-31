@@ -112,3 +112,70 @@ Theme 1 Teams, there are several ways to upload your graph to the FRINK Landing 
     This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data
     to/from lakeFS</a>.
 
+## Upload from other Storage providers (Azure, S3 etc...)
+
+This guide can serve as a way to configure rclone as a tool to copy files to lakefs. In this guide we will use 
+Azure blob storage as an example. 
+
+1. Install rclone
+
+    If you haven't installed rclone yet, you can do so by following the instructions on the [rclone website](https://rclone.org/downloads/).
+
+2. Configure rclone source with Azure Blob Storage
+    - **Create a new rclone remote for Azure Blob Storage**:
+         Open a terminal and run the following command to configure a new remote:   
+         ```
+         rclone config
+         ```      
+    - **Create a new remote**:
+        - Type `n` to create new remote and press Enter.
+        - Name the remote (e.g. `azureblob`)
+    - **Choose the backend**: 
+        - When prompted to choose a storage type , select `32` (Microsoft Azure Blob Storage)
+    - **Configure the Azure Blob Storge backend**:
+      -  Follow the prompts to configure the Azure Blob Storage backend. You will need:
+        - `Account Name`: Your Azure Storage account name.
+        - `Account Key`: Your Azure Storage account key. 
+    - **Save the configuration**:
+      - After providing the necessary information, confirm the setup and save the configuration.
+
+3. Configure rclone with lakeFS
+    - **Create a new rclone remote for Azure Blob Storage**:
+         Open a terminal and run the following command to configure a new remote:
+         ```
+         rclone config
+         ```
+    - **Create a new remote**:
+        - Type `n` to create new remote and press Enter.
+        - Name the remote (e.g. `lakefs`) 
+    - **Choose the backend**: 
+        - When prompted to choose a storage type , select `5` (S3) and then select `31` (Other) on the next prompt
+    - **Configure the lakeFS backend**:
+      -  Follow the prompts to configure the lakefs backend. You will need:
+        - `AWS Access Key ID`: Your lakeFS access key id .
+        - `AWS Secret Access Key`: Your lakefs secret access key.
+        - For region leave empty
+        - `Endpoint for S3 API`: this is the url for lakefs https://frink-lakefs.apps.renci.org
+        - Follow the rest of the prompt according to your needs
+    - **Save the configuration**:
+      - After providing the necessary information, confirm the setup and save the configuration.
+    
+4. Verify the Configuration
+
+    You can list the contents of your Azure Blob Storage and lakeFS bucket to verify the configuration:
+```
+rclone ls azureblob:your-container-name
+rclone ls lakefs:your-bucket-name
+```
+If the configuration is correct, you should see the contents of your Azure Blob Storage container and lakeFS bucket.
+
+5. Copy Data from Azure Blob Storage to lakeFS
+
+    To copy data from Azure Blob Storage to your lakeFS server, use the rclone copy or rclone sync command. Here's an example using the rclone copy command:
+``` 
+rclone copy azureblob:your-container-name/path/in/container lakefs:your-bucket-name/path/in/bucket
+```
+
+!!! info     
+    For more details on rclone commands and options, visit the [rclone documentation](https://rclone.org/docs/).
+

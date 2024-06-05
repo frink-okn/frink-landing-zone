@@ -11,7 +11,7 @@
 | Secure Chain KG: Knowledge Graph Construction for Resilient, Trustworthy, and Secure Software Supply Chains                                  | [https://frink-lakefs.apps.renci.org/repositories/secure-chain-kg/objects](https://frink-lakefs.apps.renci.org/repositories/secure-chain-kg/objects)                                                           | ttl    |
 | SOC-KG: Digging Into Soil Carbon With USDA: A Knowledge Graph Informing Soil Carbon Modeling                                           | [https://frink-lakefs.apps.renci.org/repositories/soc-kg/objects](https://frink-lakefs.apps.renci.org/repositories/soc-kg/objects)                                                               | ttl   |
 | SUDOKN: Supply and Demand Open Knowledge Network                                         | [https://frink-lakefs.apps.renci.org/repositories/sudokn-kg/objects](https://frink-lakefs.apps.renci.org/repositories/sudokn-kg/objects)                                                           | ttl    |
-| urban-flooding-open-knowledge-network            | [https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects](https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects) | nq     |
+| WEN-OKN: The Water-Energy Nexus Open Knowledge Network            | [https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects](https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects) | nq     |
 
 
 

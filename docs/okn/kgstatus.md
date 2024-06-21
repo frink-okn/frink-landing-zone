@@ -12,6 +12,7 @@
 | SOC-KG: Digging Into Soil Carbon With USDA: A Knowledge Graph Informing Soil Carbon Modeling                                           | [https://frink-lakefs.apps.renci.org/repositories/soc-kg/objects](https://frink-lakefs.apps.renci.org/repositories/soc-kg/objects)                                                               | ttl   |
 | SUDOKN: Supply and Demand Open Knowledge Network                                         | [https://frink-lakefs.apps.renci.org/repositories/sudokn-kg/objects](https://frink-lakefs.apps.renci.org/repositories/sudokn-kg/objects)                                                           | ttl    |
 | WEN-OKN: The Water-Energy Nexus Open Knowledge Network            | [https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects](https://frink-lakefs.apps.renci.org/repositories/urban-flooding-open-knowledge-network/objects) | nq     |
+| Wildlife-KN: Exploiting Federal Data and Beyond: A Multi-modal Knowledge Network for Comprehensive Wildlife Management Under Climate Change            | [https://frink-lakefs.apps.renci.org/repositories/wildlife-kg/objects](https://frink-lakefs.apps.renci.org/repositories/wildlife-kg/objects) | neo4j     |
 
 
 

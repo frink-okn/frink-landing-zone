@@ -3,13 +3,10 @@
 ## Other Notes
 RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html) for brevity, except for the following:
 
-  - "IO." is an abbreviation of "https://spec.industrialontologies.org/ontology/core/Core/"
-
-  - "IOSC." is an abbreviation of "https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/"
-
-  - "OBO." is an abbreviation of "http://purl.obolibrary.org/obo/"
-
-  - "SUDOKN." is an abbreviation of "http://asu.edu/semantics/SUDOKN/"
+- "IO." is an abbreviation for "https://spec.industrialontologies.org/ontology/core/Core/"
+- "IOSC." is an abbreviation for "https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/"
+- "OBO." is an abbreviation for "http://purl.obolibrary.org/obo/"
+- "SUDOKN." is an abbreviation for "http://asu.edu/semantics/SUDOKN/"
 
 ## Nodes
 - IO.Manufacturer 

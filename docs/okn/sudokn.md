@@ -2,9 +2,13 @@
 
 ## Other Notes
 RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html) for brevity, except for the following:
+
   - "IO." is an abbreviation of "https://spec.industrialontologies.org/ontology/core/Core/"
+
   - "IOSC." is an abbreviation of "https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/"
+
   - "OBO." is an abbreviation of "http://purl.obolibrary.org/obo/"
+
   - "SUDOKN." is an abbreviation of "http://asu.edu/semantics/SUDOKN/"
 
 ## Nodes
@@ -18,7 +22,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.AnodizingCapability
 - SUDOKN.AS9100 
 - SUDOKN.ASME 
-- SUDOKN.AssemblyCapability0
+- SUDOKN.AssemblyCapability
 - SUDOKN.AutomotiveIndustry
 - SUDOKN.BendingCapability
 - SUDOKN.BlackOxideCoatingCapability
@@ -49,22 +53,22 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.CNCHorizontalTurningCapability
 - SUDOKN.CNCLaserCuttingCapability
 - SUDOKN.CNCLatheCapability
-- SUDOKN.CNCMachiningCapability7
+- SUDOKN.CNCMachiningCapability
 - SUDOKN.CNCmillingCapability
-- SUDOKN.CNCMillingCapability2
+- SUDOKN.CNCMillingCapability
 - SUDOKN.CNCPlasmaCuttingCapability
 - SUDOKN.CNCPressBrakeCapability
-- SUDOKN.CNCTurningCapability6
+- SUDOKN.CNCTurningCapability
 - SUDOKN.CNCVerticalMillingCapability
 - SUDOKN.CNCWireBendingCapability
-- SUDOKN.CoatingCapability0
+- SUDOKN.CoatingCapability
 - SUDOKN.CommunicationsIndustry
 - SUDOKN.CompositeProcessingCapability
 - SUDOKN.ComputersandElectronicProductsIndustry
 - SUDOKN.ConstructionIndustry
 - SUDOKN.ConsumerGoodsIndustry
 - SUDOKN.ContinuousCastingCapability
-- SUDOKN.CopperProcessingCapability3
+- SUDOKN.CopperProcessingCapability
 - SUDOKN.CustomFoamCuttingCapability
 - SUDOKN.CuttingCapability
 - SUDOKN.CylindricalGrindingCapability
@@ -80,9 +84,9 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.ElectroplatingCapability
 - SUDOKN.EndFormingCapability
 - SUDOKN.EngineeringDesign,AutocadCapability
-- SUDOKN.EngineeringDesignCapability7
+- SUDOKN.EngineeringDesignCapability
 - SUDOKN.ExtrusionCapability
-- SUDOKN.FabricationCapability21
+- SUDOKN.FabricationCapability
 - SUDOKN.FasteningCapability
 - SUDOKN.FDAGMPCompliant 
 - SUDOKN.FiberOpticLaserCuttingCapability
@@ -93,14 +97,14 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.FoamProcessingCapability
 - SUDOKN.Food,BeverageandRestaurantsIndustry
 - SUDOKN.ForgingCapability
-- SUDOKN.FormingCapability2
+- SUDOKN.FormingCapability
 - SUDOKN.FurnitureIndustry
 - SUDOKN.GalvanizingCapability
 - SUDOKN.GearCuttingCapability
 - SUDOKN.GeospatialLocation
 - SUDOKN.GlassProcessingCapability
 - SUDOKN.GovernmentIndustry
-- SUDOKN.GrindingCapability0
+- SUDOKN.GrindingCapability
 - SUDOKN.HealthCareServicesIndustry
 - SUDOKN.HeatTreatingCapability
 - SUDOKN.HotDipGalvanizingCapability
@@ -118,14 +122,14 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.KittingCapability
 - SUDOKN.KnittingCapability
 - SUDOKN.KOSHERApproved 
-- SUDOKN.LaserCuttingCapability6
+- SUDOKN.LaserCuttingCapability
 - SUDOKN.LaserProcessingCapability
 - SUDOKN.LaserWeldingCapability
 - SUDOKN.LatheWorkCapability
 - SUDOKN.LiquidCoatingCapability
 - SUDOKN.MachineBuildingCapability
 - SUDOKN.Machining,PunchingCapability
-- SUDOKN.MachiningCapability02
+- SUDOKN.MachiningCapability
 - SUDOKN.Man-madeFiberProcessingCapability
 - SUDOKN.MechanicalAssemblyCapability
 - SUDOKN.MediaBlastingCapability
@@ -167,7 +171,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.PostalAddress 
 - SUDOKN.PowderCoating,SandBlastingCapability
 - SUDOKN.powdercoatingCapability
-- SUDOKN.PowderCoatingCapability0
+- SUDOKN.PowderCoatingCapability
 - SUDOKN.PressBrakingCapability
 - SUDOKN.PressingCapability
 - SUDOKN.PrintingCapability
@@ -190,7 +194,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.SanitaryWeldingCapability
 - SUDOKN.ScreenPrintingCapability
 - SUDOKN.SewingCapability
-- SUDOKN.ShearingCapability3
+- SUDOKN.ShearingCapability
 - SUDOKN.SheetMetalFabricationCapability
 - SUDOKN.SheetMetalFormingCapability
 - SUDOKN.SilkScreeningCapability
@@ -199,11 +203,11 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.SpinningCapability
 - SUDOKN.SportsandLeisureIndustry
 - SUDOKN.SpotWeldingCapability
-- SUDOKN.StainlessSteelProcessingCapability56
-- SUDOKN.StampingCapability8
+- SUDOKN.StainlessSteelProcessingCapability
+- SUDOKN.StampingCapability
 - SUDOKN.State 
 - SUDOKN.SteelManufacturingCapability
-- SUDOKN.SteelProcessingCapability60
+- SUDOKN.SteelProcessingCapability
 - SUDOKN.SurfaceGrindingCapability
 - SUDOKN.SwissMachiningCapability
 - SUDOKN.SwissTurningCapability
@@ -211,7 +215,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.ThermoformingCapability
 - SUDOKN.TIGWeldingCapability
 - SUDOKN.TigWeldingCapability
-- SUDOKN.TitaniumProcessingCapability7
+- SUDOKN.TitaniumProcessingCapability
 - SUDOKN.ToolMakingCapability
 - SUDOKN.TransportationIndustry
 - SUDOKN.TubeBendingCapability
@@ -224,7 +228,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.WaterjetCuttimgCapability
 - SUDOKN.WaterjetCuttingCapability
 - SUDOKN.WaterJetCuttingCapability
-- SUDOKN.WeldingCapability6
+- SUDOKN.WeldingCapability
 - SUDOKN.WetPaintingCapability
 - SUDOKN.WireBendingCapability
 - SUDOKN.WireEdmCapability

@@ -2,6 +2,7 @@
 
 ## Nodes
 
+- OWL.Class
 - USFRS.BrownfieldsSite-Facility
 - USFRS.ContaminatedSite-Facility
 - USFRS.ContaminationAddressed-Facility

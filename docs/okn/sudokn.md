@@ -15,7 +15,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - SUDOKN.AcrylicFabricationCapability
 - SUDOKN.AerospaceIndustry
 - SUDOKN.AgricultureIndustry
-- SUDOKN.AluminumProcessingCapability61
+- SUDOKN.AluminumProcessingCapability
 - SUDOKN.AnodizingCapability
 - SUDOKN.AS9100 
 - SUDOKN.ASME 

@@ -1,7 +1,7 @@
 # SUDOKN
 
 ## Abbreviations Used
-RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html)y, except for the following:
+RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html), except for the following:
 
 - IO. is an abbreviation for [https://spec.industrialontologies.org/ontology/core/Core/](https://spec.industrialontologies.org/ontology/core/Core/)
 - IOSC. is an abbreviation for [https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/](https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/)

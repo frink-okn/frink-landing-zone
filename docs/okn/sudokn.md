@@ -10,6 +10,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 
 ## Nodes
 - IO.Manufacturer 
+- RDFS.label
 - SUDOKN.2-AxisCNCTurningCapability
 - SUDOKN.3DPrintingCapability
 - SUDOKN.AcrylicFabricationCapability

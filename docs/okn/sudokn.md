@@ -244,6 +244,10 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 
 - SUDOKN.hasCertificate
 - SUDOKN.hasMaterialCapability
+- SUDOKN.hasNAICSCodeValue
+- SUDOKN.hasNAICSTextValue
+- SUDOKN.hasNumberOfExmployees
+- SUDONK.hasOrganizationYearOfEstablishment
 - SUDOKN.hasOwnershipStatusClassifier
 - SUDOKN.hasPostalAddress 
 - SUDOKN.hasPrimaryNAICSClassifier

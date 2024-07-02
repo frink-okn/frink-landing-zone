@@ -1,0 +1,94 @@
+# SCALES
+
+## Prefixes Used
+- RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html)
+- SCALES. is abbreviated for [http://schemas.scales-okn.org/rdf/scales#](http://schemas.scales-okn.org/rdf/scales#)
+
+## Node Types
+
+- SCALES.Agent
+- SCALES.CaseCivil
+- SCALES.CaseCriminal
+- SCALES.Charge
+- SCALES.DocketEntry
+- SCALES.DocketTable
+
+## Predicates
+
+- SCALES.assignedToDefendant 
+- SCALES.hasAddress
+- SCALES.hasAgent 
+- SCALES.hasAgentType
+- SCALES.hasCause
+- SCALES.hasCharge 
+- SCALES.hasContents
+- SCALES.hasDocketTable
+- SCALES.hasExtraInfo
+- SCALES.hasFilingDate
+- SCALES.hasIdbAmtrec
+- SCALES.hasIdbAppcd
+- SCALES.hasIdbAppdate
+- SCALES.hasIdbArbit
+- SCALES.hasIdbCaslgky
+- SCALES.hasIdbCircuit
+- SCALES.hasIdbClassact
+- SCALES.hasIdbCounty
+- SCALES.hasIdbCtdef
+- SCALES.hasIdbCtfil
+- SCALES.hasIdbCtfilr
+- SCALES.hasIdbCtfiltrn
+- SCALES.hasIdbCtfilwor
+- SCALES.hasIdbCtpn
+- SCALES.hasIdbCtpnwof
+- SCALES.hasIdbCttr
+- SCALES.hasIdbCttrr
+- SCALES.hasIdbCttrtrn
+- SCALES.hasIdbCttrwor
+- SCALES.hasIdbD2foffcd1
+- SCALES.hasIdbD2foffcd2
+- SCALES.hasIdbD2foffcd3
+- SCALES.hasIdbD2foffcd4
+- SCALES.hasIdbD2foffcd5
+- SCALES.hasIdbDef
+- SCALES.hasIdbDeflgky
+- SCALES.hasIdbDefno
+- SCALES.hasIdbDemanded
+- SCALES.hasIdbDisp
+- SCALES.hasIdbDisp1
+- SCALES.hasIdbDisp2
+- SCALES.hasIdbDisp3
+- SCALES.hasIdbDisp4
+- SCALES.hasIdbDisp5
+- SCALES.hasIdbDispdate
+- SCALES.hasIdbDistrict
+- SCALES.hasIdbDjoined
+- SCALES.hasIdbDocket
+- SCALES.hasIdbFcounsel
+- SCALES.hasIdbFdateuse
+- SCALES.hasIdbFgenddate
+- SCALES.hasIdbFgstrtdate
+- SCALES.hasIdbFiledate
+- SCALES.hasIdbFineamt1
+- SCALES.hasIdbFineamt2
+- SCALES.hasIdbFineamt3
+- SCALES.hasIdbFineamt4
+- SCALES.hasIdbFineamt5
+- SCALES.hasIdbFinetot
+- SCALES.hasIdbFiscalyr
+- SCALES.hasIdbFoffcd1
+- SCALES.hasIdbFoffcd2
+- SCALES.hasIdbFoffcd3
+- SCALES.hasIdbFoffcd4
+- SCALES.hasIdbFoffcd5
+- SCALES.hasIdbFofflvl1
+- SCALES.hasIdbFofflvl2
+- SCALES.hasIdbFofflvl3
+- SCALES.hasIdbFofflvl4
+- SCALES.hasIdbFofflvl5
+- SCALES.hasIdbFsev1
+- SCALES.hasIdbFsev2
+- SCALES.hasIdbFsev3
+- SCALES.hasIdbFsev4
+- SCALES.hasIdbFsev5
+- SCALES.hasIdbFtitle1
+- SCALES.hasIdbFtitle2

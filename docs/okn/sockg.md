@@ -1,9 +1,8 @@
 # SOC KG
 
-## Abbreviations Used
+## Prefixess Used
 
-RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html) except for the following:
-
+- RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html) except for the following:
 - SOC. may be an abbreviation for [neo4j://graph.schema#] (neo4j://graph.schema#) 
 - WD. is an abbreviation for [http://www.wikidata.org/entity/](http://www.wikidata.org/entity/)
 

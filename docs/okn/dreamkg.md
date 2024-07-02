@@ -1,8 +1,8 @@
 # DREAM-KG
 
-## Abbreviations Used
-RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html), except 
+## Prefixes Used
 
+- RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.namespace.html) 
 - DREAMKG. is an abbreviation for [http://www.semanticweb.org/dreamkg/ijcai/](http://www.semanticweb.org/dreamkg/ijcai/) 
 - WD. is an abbreviation for [http://www.wikidata.org/entity/](http://www.wikidata.org/entity/)
 

@@ -8,7 +8,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - OBO. is an abbreviation for [http://purl.obolibrary.org/obo/](http://purl.obolibrary.org/obo/)
 - SUDOKN. is an abbreviation for [http://asu.edu/semantics/SUDOKN/](http://asu.edu/semantics/SUDOKN/)
 
-## Nodes
+## Node Types
 - IO.Manufacturer 
 - RDFS.label
 - SUDOKN.2-AxisCNCTurningCapability

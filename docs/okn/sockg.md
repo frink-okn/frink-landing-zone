@@ -9,7 +9,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 
 Domains and ranges of predicates are provided in sockg_ontology.ttl
 
-## Nodes
+## Node Types
 
 - SOC.Amendment
 - SOC.BookChapter

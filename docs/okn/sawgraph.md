@@ -1,6 +1,6 @@
 # SAW Graph
 
-## Nodes
+## Node Types
 
 - OWL.Class
 - USFRS.BrownfieldsSite-Facility

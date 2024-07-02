@@ -6,7 +6,7 @@ RDF prefixes are abbreviated using the shorthand provided by [rdflib.namespace](
 - DREAMKG. is an abbreviation for [http://www.semanticweb.org/dreamkg/ijcai/](http://www.semanticweb.org/dreamkg/ijcai/) 
 - WD. is an abbreviation for [http://www.wikidata.org/entity/](http://www.wikidata.org/entity/)
 
-## Nodes
+## Node Types
 
 - SDO.AdministrativeArea
 - SDO.Audience

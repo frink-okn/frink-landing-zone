@@ -5,26 +5,38 @@ Theme 1 Teams, there are several ways to upload your graph to the FRINK Landing 
 
     For each method, you will need to request credentials for accessing lakeFS. These credentials are an **Access Key ID** and a **Secret Acess 
     Key**. You may request these either by direct messaging Yaphet Kebede through our PROTO-OKN Slack channel or by emailing Yaphet at kebedey at
-    renci dot org.
+    renci dot org. With your request please provide the name of your dataset, that will be used to create a repository to host your data on lakeFS.
 
 ??? warning
    
     We are currently trying to resolve a problem with extremely large files (e.g., 100GB or more). If you run into a problem uploading your file and 
     it is around or over 100GB, please contact Yaphet Kebede at kebedey at renci dot org.
 
-## Upload through the website
+## Repository Structure
+
+Every dataset hosted in FRINK will have its own lakeFS repository. Data submissions should be made by uploading the data to the develop branch of the respective repository. After uploads and commits are completed on the develop branch, the data update can be finalized by creating a merge request to the main branch.
+
+<img src="../../assets/images/branch-struct.png">
+
+## Uploading Data 
+
+### Upload through the website
+
+!!! info inline end ""	
+
+     See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart guide</a> for more information.</strong></font> 
+  
+
 
 1. Navigate to [https://frink-lakefs.apps.renci.org/](https://frink-lakefs.apps.renci.org/)
 
 2. Enter your **Access Key ID** and your **Secret Access Key** to log in.
 
-3. We request that you create one repository (repo) for each unique dataset (i.e., graph). Along with lakeFS' tagging system, this enables us to properly track versions of your graph. So when visiting lakeFS for the first time, please click the **Create Repository** button to create a new repo.    
-<img src="../../assets/images/1create-repo-button.png" width="200">
+3. Browse to your working repository.
 
-4. The **Create A New Repository** pop-up window will appear asking you for a **Repository ID**. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the **Create Repository** button.   
-<img src="../../assets/images/2create-repo-popup.png">
-
-5. Now that the repo has been created, click the **Upload Object** button to upload your dataset/graph.   
+4. By default, your repository would be on main branch, double check to make sure that is set to `develop` branch. 
+<img src="../../assets/images/13change-branch.png">
+5. Click the **Upload Object** button to upload your dataset/graph.   
 <img src="../../assets/images/3upload-object-button.png">
 
 6. The **Upload Object** pop-up window will appear offering you the option to drag and drop a single file from your desktop to the pop-up window. Once your file appears in the pop-up, click the **Upload** button to complete the upload. (Although there is a **Path** text field, it will not recognize a file path on your local machine. So please use the drag and drop feature.)
@@ -38,42 +50,18 @@ Theme 1 Teams, there are several ways to upload your graph to the FRINK Landing 
 8. The **Commit Changes** pop-up window will appear. Please enter a **Commit Message** providing information about the nature of your upload. We suggest you include your name in case multiple individuals from your team are uploading files to lakeFS. The date and time will be recorded automatically.  
 <img src="../../assets/images/7commit-changes-popup.png" width="400">
 
-9. To mark the file(s) you uploaded in the above steps with a particular version number, you will need to create a **Tag**. Click on the **Tags** tab to do so.   
-<img src="../../assets/images/9tags-tab-button.png">
-10. Once you are on the **Tags** tab, click the **Create Tag** button.  
 
-	!!! info
-
-	 	For more information on Lake FS tags, see [https://docs.lakefs.io/understand/model.html#tags](https://docs.lakefs.io/understand/model.html#tags)
-	 
-11. The **Create Tag** pop-up window will appear. Input a **Tag Name** in the field provided. It is sufficient to do this on the main branch.  
-<img src="../../assets/images/10tag-popup.png" width="400"> 
-
-	!!! info ""
-
-	 	You may use other branches if you wish, just be sure to merge those branches back to main. 
-	 
-
-12. A tag in lakeFS works similarly to a Git ref name. A lakeFS tag marks all the files in the repo&mdash;i.e., the state of the repo&mdash;at the time the tag was created with that particular tag. So for example, on the **Objects** tab, there will be a drop-down menu with the different tags that have been added. Selecting one of those tags will show you all the files that were committed to the repo when that particular tag was created. Changing the selection in that drop-down also lets you access the different versions of your files.
-<img src="../../assets/images/11change-committed-per-tag.png">
-
-!!! info ""
-
-	 **To upload a new version of a file(s) already uploaded to lakeFS, simply repeat steps 1 and 2, and 5 through 12.**
-
-
-!!! info
-
-     See the <a href="https://docs.lakefs.io/quickstart/">lakeFS QuickStart guide</a> for more information.</strong></font> 
   
+### Upload Using Amazon's S3 Command Line Interface (CLI) Tool
+!!! info inline end ""
+
+    More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS CLI</a>.     
+    <br>
+    This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data
+    to/from lakeFS</a>.
+
   
-## Upload Using Amazon's S3 Command Line Interface (CLI) Tool
-
-!!! info
-
-     More details about using the AWS CLI can be found at <a href="https://docs.lakefs.io/integrations/aws_cli.html">Using lakeFS with the AWS CLI</a>.     
-    
-     
+   
 1. Install the AWS CLI Toolkit.
     * Follow the steps in the [AWS CLI installation guide](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-install.html) to install the AWS CLI toolkit.
     
@@ -84,35 +72,28 @@ Theme 1 Teams, there are several ways to upload your graph to the FRINK Landing 
     aws configure --profile lakefs
     ```
     
-3. Create a lakeFS repository.
-    * Visit the [Frink Landing Zone on lakeFS](https://frink-lakefs.apps.renci.org) in a web browser.
-    * Click the **Create Repository** button to create a new repo.  
-    <img src="../../assets/images/1create-repo-button.png" width="200"">
-    * The **Create A New Repository** pop-up window will appear asking you for a **Repository ID**. This is simply a name you wish to give your dataset/graph. The name must be in lowercase, may not contain spaces, but may contain dashes (-). You do not need to select any other settings in this pop-up. Once you have named your repo, click the **Create Repository** button.
-    <img src="../../assets/images/2create-repo-popup.png">
-    
-4. Upload files to the repository.
+3. Upload files to the repository.
     * In the terminal, upload files to the new repository on the main branch:
     ``` 
-    aws s3 cp my-local-dataset.hdt s3://my-repo/main/my-local-graph.hdt --endpoint="https://frink-lakefs.apps.renci.org" --profile lakefs
+    aws s3 cp my-local-dataset.hdt s3://my-repo/develop/my-local-graph.hdt --endpoint="https://frink-lakefs.apps.renci.org" --profile lakefs
 	```
 
-    * This example will copy `my-local-dataset.hdt` file to a repo called `my-repo` on the `main` branch, renamed as `my-local-graph.hdt`. It forces the s3 tool to target FRINK lakefs by providing the `--endpoint` option.
-5. Commit the upload.
+    * This example will copy `my-local-dataset.hdt` file to a repo called `my-repo` on the `develop` branch, renamed as `my-local-graph.hdt`. It forces the s3 tool to target FRINK lakefs by providing the `--endpoint` option.
+4. Commit the upload.
     * Back in the web browser, go to your repository.
     * Navigate to the **Uncommitted Changes** tab. Click the **Commit Changes** button.   
      <img src="../../assets/images/5uncommitted-changes-tab.png">  
     * The **Commit Changes** pop-up window will appear. Please enter an appropriate **Commit Message**.  
      <img src="../../assets/images/7commit-changes-popup.png" width="400">
      
-6. Mark as a release and create tags. If you need to mark this as a release and create tags, follow steps 9 onward in the **Upload through the website** section above. 
 
-!!! info
 
-    This could work with other s3 clients. Possible options are also listed at <a href="https://docs.lakefs.io/howto/copying.html">Copying Data
-    to/from lakeFS</a>.
+### Upload from other Storage providers (Azure, S3 etc...)
 
-## Upload from other Storage providers (Azure, S3 etc...)
+!!! info inline end ""   
+    For more details on rclone commands and options, visit the [rclone documentation](https://rclone.org/docs/).
+
+
 
 This guide can serve as a way to configure rclone as a tool to copy files to lakefs. In this guide we will use 
 Azure blob storage as an example. 
@@ -162,10 +143,10 @@ Azure blob storage as an example.
     
 4. Verify the Configuration
 
-    You can list the contents of your Azure Blob Storage and lakeFS bucket to verify the configuration:
+    You can list the contents of your Azure Blob Storage and lakeFS repository to verify the configuration:
 ```
 rclone ls azureblob:your-container-name
-rclone ls lakefs:your-bucket-name
+rclone ls lakefs:your-repository-name
 ```
 If the configuration is correct, you should see the contents of your Azure Blob Storage container and lakeFS bucket.
 
@@ -173,9 +154,17 @@ If the configuration is correct, you should see the contents of your Azure Blob 
 
     To copy data from Azure Blob Storage to your lakeFS server, use the rclone copy or rclone sync command. Here's an example using the rclone copy command:
 ``` 
-rclone copy azureblob:your-container-name/path/in/container lakefs:your-bucket-name/path/in/bucket
+rclone copy azureblob:your-container-name/path/in/container lakefs:your-repository-name/develop/location/of/file
 ```
 
-!!! info     
-    For more details on rclone commands and options, visit the [rclone documentation](https://rclone.org/docs/).
+## Notifying FRINK On Data Updates
+!!! warning inline    "Note"
+
+    When doing merges please ensure that main branch is going to end up having only data that you'd want to make available. Datafiles from previous versions, that are no longer needed should be removed from develop branch before merging. FRINK will have no way of telling which ones are the right files.     
+
+ 
+
+
+Merging your data from develop branch to main branch will be observed by the FRINK team (currently developing automations), 
+do deploy your data and make it queryable. 
 

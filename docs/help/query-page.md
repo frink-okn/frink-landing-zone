@@ -45,6 +45,12 @@ The following knowledge graphs are currently available within FRINK. The SPARQL 
 - DREAM-KG
     - SPARQL: `https://frink.apps.renci.org/dreamkg/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/dreamkg`
+- FIO-KG
+    - SPARQL: `https://frink.apps.renci.org/fiokg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/fiokg`
+- Hydrology KG
+    - SPARQL: `https://frink.apps.renci.org/hydrologykg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/hydrologykg`
 - SCALES
     - SPARQL: `https://frink.apps.renci.org/scales/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/scales`
@@ -57,6 +63,12 @@ The following knowledge graphs are currently available within FRINK. The SPARQL 
 - SOC-KG
     - SPARQL: `https://frink.apps.renci.org/sockg/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/sockg`
+- Spatial KG
+    - SPARQL: `https://frink.apps.renci.org/spatialkg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/spatialkg`
+- SPOKE-KG
+    - SPARQL: `https://frink.apps.renci.org/spoke/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/spoke`
 - SUD-OKN
     - SPARQL: `https://frink.apps.renci.org/sudokn/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/sudokn`
@@ -66,6 +78,9 @@ The following knowledge graphs are currently available within FRINK. The SPARQL 
 - Ubergraph
     - SPARQL: `https://frink.apps.renci.org/ubergraph/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/ubergraph`
+- Wildlife-KG
+    - SPARQL: `https://frink.apps.renci.org/wildlifekg/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/wildlifekg`
 - Wikidata
     - SPARQL: `https://frink.apps.renci.org/wikidata/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/wikidata`

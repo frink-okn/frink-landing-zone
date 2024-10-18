@@ -27,7 +27,8 @@ nav:
   - Home: index.md
   - Quick Start Guide:
     - help/index.md
-    - Upload Your Graph to the FRINK Landing Zone: help/upload-to-lakefs.md
+    - Setup Your FRINK Repo in the Landing Zone: help/upload-to-lakefs.md
+    - Update Your Graph in FRINK: help/update.md
     - Query knowledge graphs in FRINK: help/query-page.md
   - KG Authoring Guidance:
     - guidance/index.md

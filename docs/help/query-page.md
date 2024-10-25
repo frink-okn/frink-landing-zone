@@ -7,7 +7,7 @@ FRINK offers a query page that enables anyone to query specific Theme 1 graphs o
 ### Query Specific Graphs
 The query page allows selection of a single knowledge graph or multiple knowledge graphs to query. 
 
-From the Sources drop-down menu (shown below)
+From the **Sources** drop-down menu (shown below)
 
 <img src="../../assets/images/Sources-DropDown-Empty.png" width="400"> 
 
@@ -15,17 +15,29 @@ You can select one or many of the graphs comprising FRINK.
 
 <img src="../../assets/images/SourcesDropDown2.png" width="400">
 
-Then you can construct a query in SPARQL using the SPARQL Query pane. Click the _Run Query_ button to execute the query.
+Then you can construct a query in SPARQL using the **SPARQL Query** pane and run the query against the data sources you selected in the **Sources** drop down. Click the **Run Query** button to execute the query.
 <img src="../../assets/images/SPARQLQueryPane.png" width="400">
 
 ### Query Using Examples
-In the EXAMPLES pane, you can select a pre-written query from the list. The EXAMPLES pan includes queries from distinct Theme 1 graphs as well as from other graphs that are used in the OKN (e.g., Ubergraph). 
-The query page is configured with a few examples that span a few different knowledge sources and their combination. The example
-queries can be selected using the `pick a query` dropdown. In addition to these examples, users can opt to write their own query and execute it against the data sources selected. Once ready, clicking on the `Execute` button triggers the query. The query can be stopped using `Stop execution` button which shows up in place of `Execute`, once querying starts. 
+In the **EXAMPLES** pane, you can select a pre-formulated SPARQL query from the list. The **EXAMPLES** pane includes queries from distinct Theme 1 graphs as well as from other graphs that are used in the OKN (e.g., Ubergraph), with each example query clearly labeled. 
 
-As stated above, multiple data sources can be selected prior to querying. When querying over multiple sources, the query engine executes the query within the user's browser, accessing data from each source's TPF endpoint. This will typically be slower than submitting a SPARQL query to a single endpoint; however there is no query timeout. If the user wishes to query over all available data sources, a faster option is to select the source labelled "FRINK Federated SPARQL" (and deselect all other sources). This will submit the query to a server-side endpoint federating all sources. In the future we plan to allow arbitrary combinations of sources to execute using the faster server-side query engine.
+<img src="../../assets/images/ExamplesPane.png" width="400">
 
-Results of the query will be shown in the `Query results` section of the page. Use the `Download` button to download a file of all results.
+### Query Across Graphs
+
+If the you wish to query over all available data sources, select FRINK Federated SPARQL from the Sources drop down. Be sure to deselect all other sources. This will submit the query to a server-side endpoint federating all sources.
+
+<img src="../../assets/images/Federated.png" width="400">
+
+### Saving Queries and Downloading Output
+
+In the **SPARQL Query** pane, you can click the **Save Query** button to save your query. It will appear in the **SAVED** panel as shown below.
+
+<img src="../../assets/images/SavedPanel.png width="400">
+
+In the **RESULTS** pane, you can click the blue download button to download the output of your query. The button is circled in red below.
+
+<img src="../../assets/images/ResultsPanel.png width="400">
 
 ## SPARQL Endpoints
 

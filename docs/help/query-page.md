@@ -5,14 +5,17 @@
 FRINK offers a query page that enables anyone to query specific Theme 1 graphs or query across graphs (i.e., a federated query). The FRINK Query Page is located at [https://frink.apps.renci.org](https://frink.apps.renci.org).
 
 ### Sources
-The query page allows selection of a single knowledge graph or multiple knowledge graphs to query. From the Sources drop-down menu 
+The query page allows selection of a single knowledge graph or multiple knowledge graphs to query. 
+
+From the Sources drop-down menu (shown below)
 
 <img src="../../assets/images/Sources-DropDown-Empty.png" width="400"> 
 
-you can select one or many of the graphs comprising FRINK.
+You can select one or many of the graphs comprising FRINK.
+
 <img src="../../assets/images/SourcesDropDown2.png" width="400">
 
-You can construct a query in SPARQL using the SPARQL Query pane, and then clicking the Run Query button.
+Then you can construct a query in SPARQL using the SPARQL Query pane. Click the Run Query button to execute the query.
 <img src="../../assets/images/SPARQLQueryPane.png" width="400">
 
 

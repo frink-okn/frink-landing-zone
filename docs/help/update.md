@@ -47,7 +47,7 @@ Different workflows will manage the transition of raw data to stable datasets in
 
 
 #### Workflow Process:
-1. **Merge to Main**: When raw data on the `develop` branch is merged into the `main` branch, conversion workflow is triggered.
+1. **Merge to Main**: When raw data on the `develop` branch is merged into the `main` branch, conversion workflow is triggered. 
 2. **Conversion**: The workflow processes raw data into the stable format (HDT).
 3. **Stable Branch Creation**: Upon successful processing, a new `stable` branch is created, following the `stable_v*` naming convention.
 4. **Tagging**: After successful push, the stable branch is tagged with the corresponding version number.
@@ -69,15 +69,15 @@ To achieve automated deployment, two key events can be monitored:
 - **ETL Output**: Once the ETL process is complete, the system pushes the new dataset onto a `stable` branch.
 
 #### Event 2: Tag Creation
-- **Trigger**: After merging the stable dataset back into the main branch, a tag is created, marking the official release of the dataset.
+- **Trigger**: Tag is created, marking the official release of the dataset.
 - **Deployment**: The creation of this tag initiates an automatic deployment process, loading the new dataset.
 
 
 ### **Summary of Versioning Workflow**
-1. **Raw Data**: Changes made in the `develop` branch.
-2. **Merge to Main**: Raw data is merged into the `main` branch.
-3. **Processing**: Workflow triggers ETL pipelines to process raw data.
-4. **Stable Dataset**: Processed data is pushed to a new `stable` branch.
-6. **Tagging**: The main branch is tagged with the corresponding version number.
+1. **Graph Data**: Changes made in the `develop` branch by data owners.
+2. **Merge to Main**: Graph data is merged into the `main` by data owners.
+3. **Processing**: Automation triggers conversion pipelines to process incoming data.
+4. **Stable Dataset**: Automation HDT format of new data is pushed to a new `stable` branch.
+6. **Tagging**: `stable` branch is automatically tagged with the corresponding version number.
 7. **Deployment**: The tag creation triggers an automatic deployment process.
 

@@ -38,7 +38,7 @@ In the **SPARQL Query** pane, you can click the **Save Query** button to save yo
 
 In the **RESULTS** pane, you can click the blue download button to download the output of your query. The button is circled in red below.
 
-<img src="../../assets/images/Results.png">
+<img src="../../assets/images/Results2.png">
 
 ## SPARQL Endpoints
 

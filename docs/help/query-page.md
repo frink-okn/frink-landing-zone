@@ -34,7 +34,7 @@ If the you wish to query over all available data sources, select FRINK Federated
 
 In the **SPARQL Query** pane, you can click the **Save Query** button to save your query. It will appear in the **SAVED** panel as shown below.
 
-<img src="../../assets/images/Saved.png">
+<img src="../../assets/images/Saved.png" width="400">
 
 In the **RESULTS** pane, you can click the blue download button to download the output of your query. The button is circled in red below.
 

@@ -52,7 +52,7 @@ Different workflows will manage the transition of raw data to stable datasets in
 3. **Stable Branch Creation**: Upon successful processing, a new `stable` branch is created, following the `stable_v*` naming convention.
 4. **Tagging**: After successful push, the stable branch is tagged with the corresponding version number.
 
-### 4. **Tagging and Version Control**
+### **Tagging and Version Control**
 
 Tags provide a crucial mechanism for keeping track of stable dataset releases. The tag on the main branch represents an official release of the dataset and will trigger deployment pipelines.
 
@@ -60,7 +60,7 @@ Tags provide a crucial mechanism for keeping track of stable dataset releases. T
 - **Automated Tag Creation**: Tags can be automatically created after successful validation of the dataset. This ensures data reliability and minimizes manual intervention.
 - **Naming Convention**: Tags should follow the version format used in the stable branch, such as `v0_90_1` reformatted to `v0.90.1`.
 
-### 5. **Events Triggering Automation**
+### **Events Triggering Automation**
 
 To achieve automated deployment, two key events can be monitored:
 
@@ -72,14 +72,14 @@ To achieve automated deployment, two key events can be monitored:
 - **Trigger**: After merging the stable dataset back into the main branch, a tag is created, marking the official release of the dataset.
 - **Deployment**: The creation of this tag initiates an automatic deployment process, loading the new dataset.
 
-### 6. **Automation Considerations**
+### **Automation Considerations**
 
 
 To fully automate this process, ensure the following:
 - **Strong Testing Framework**: Tests should validate raw and processed data to mitigate the risk of deployment failures.
 - **ETL Pipelines with Control**: Ensure ETL pipelines can create tags only when validations are passed and the dataset is fully reliable.
 
-### 7. **Summary of Versioning Workflow**
+### **Summary of Versioning Workflow**
 1. **Raw Data**: Changes made in the `develop` branch.
 2. **Merge to Main**: Raw data is merged into the `main` branch.
 3. **Processing**: Workflow triggers ETL pipelines to process raw data.

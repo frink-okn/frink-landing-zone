@@ -72,12 +72,6 @@ To achieve automated deployment, two key events can be monitored:
 - **Trigger**: After merging the stable dataset back into the main branch, a tag is created, marking the official release of the dataset.
 - **Deployment**: The creation of this tag initiates an automatic deployment process, loading the new dataset.
 
-### **Automation Considerations**
-
-
-To fully automate this process, ensure the following:
-- **Strong Testing Framework**: Tests should validate raw and processed data to mitigate the risk of deployment failures.
-- **ETL Pipelines with Control**: Ensure ETL pipelines can create tags only when validations are passed and the dataset is fully reliable.
 
 ### **Summary of Versioning Workflow**
 1. **Raw Data**: Changes made in the `develop` branch.

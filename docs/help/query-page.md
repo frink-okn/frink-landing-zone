@@ -16,6 +16,7 @@ You can select one or many of the graphs comprising FRINK.
 <img src="../../assets/images/SourcesDropDown2.png" width="400">
 
 Then you can construct a query in SPARQL using the **SPARQL Query** pane and run the query against the data sources you selected in the **Sources** drop down. Click the **Run Query** button to execute the query.
+
 <img src="../../assets/images/SPARQLQueryPane.png" width="400">
 
 ### Query Using Examples

@@ -4,7 +4,7 @@
 
 FRINK offers a query page that enables anyone to query specific Theme 1 graphs or query across graphs (i.e., a federated query). The FRINK Query Page is located at [https://frink.apps.renci.org](https://frink.apps.renci.org).
 
-### Sources
+### Query Specific Graphs
 The query page allows selection of a single knowledge graph or multiple knowledge graphs to query. 
 
 From the Sources drop-down menu (shown below)
@@ -15,10 +15,11 @@ You can select one or many of the graphs comprising FRINK.
 
 <img src="../../assets/images/SourcesDropDown2.png" width="400">
 
-Then you can construct a query in SPARQL using the SPARQL Query pane. Click the Run Query button to execute the query.
+Then you can construct a query in SPARQL using the SPARQL Query pane. Click the _Run Query_ button to execute the query.
 <img src="../../assets/images/SPARQLQueryPane.png" width="400">
 
-
+### Query Using Examples
+In the EXAMPLES pane, you can select a pre-written query from the list. The EXAMPLES pan includes queries from distinct Theme 1 graphs as well as from other graphs that are used in the OKN (e.g., Ubergraph). 
 The query page is configured with a few examples that span a few different knowledge sources and their combination. The example
 queries can be selected using the `pick a query` dropdown. In addition to these examples, users can opt to write their own query and execute it against the data sources selected. Once ready, clicking on the `Execute` button triggers the query. The query can be stopped using `Stop execution` button which shows up in place of `Execute`, once querying starts. 
 

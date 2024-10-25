@@ -10,7 +10,7 @@ The query page allows selection of a single knowledge graph or multiple knowledg
 <img src="../../assets/images/Sources-DropDown-Empty.png" width="400"> 
 
 you can select one or many of the graphs comprising FRINK.
-<img src="../../assets/images/Source-DropDown.png" width="400">
+<img src="../../assets/images/SourcesDropDown2.png" width="400">
 
 You can construct a query in SPARQL using the SPARQL Query pane, and then clicking the Run Query button.
 <img src="../../assets/images/SPARQLQueryPane.png" width="400">

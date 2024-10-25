@@ -1,4 +1,4 @@
-# Querying knowledge graphs in FRINK
+# Query Knowledge Graphs in FRINK
 
 ## FRINK Query Page
 

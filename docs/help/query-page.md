@@ -6,13 +6,14 @@ FRINK offers a query page that enables anyone to query specific Theme 1 graphs o
 
 ### Sources
 The query page allows selection of a single knowledge graph or multiple knowledge graphs to query. From the Sources drop-down menu 
-<img src="../../assets/images/Sources-DropDown-Empty.png" width="300"> 
+
+<img src="../../assets/images/Sources-DropDown-Empty.png" width="400"> 
 
 you can select one or many of the graphs comprising FRINK.
-<img src="../../assets/images/Source-DropDown.png">
+<img src="../../assets/images/Source-DropDown.png" width="400">
 
 You can construct a query in SPARQL using the SPARQL Query pane, and then clicking the Run Query button.
-<img src="../../assets/images/SPARQLQueryPane.png">
+<img src="../../assets/images/SPARQLQueryPane.png" width="400">
 
 
 The query page is configured with a few examples that span a few different knowledge sources and their combination. The example

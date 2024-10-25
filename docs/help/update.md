@@ -1,15 +1,14 @@
 # Update Your Graph in FRINK
 
 
-### Introduction
 To ensure a smooth and automated deployment of data pipelines, establishing structured rules and policies around branch and tag usage in our data repositories is essential. This guide focuses on implementing best practices for versioning datasets and aligning the workflows for raw and stable data processing. By following these guidelines, teams can leverage FRINK's LakeFS repository version control capabilities more efficiently and streamline their automatic deployment processes.
 
-### 1. **Repository Structure**
+### **Repository Structure**
 
 Each LakeFS repository should house a single dataset to allow for independent versioning and easier maintenance. This approach is different from assigning a repository per team, which can complicate the versioning process if multiple datasets are housed in the same repository. 
 
   
-### 2. **Branching Strategy**
+### **Branching Strategy**
 
 The branching strategy revolves around separating the stages of data processing into different branches to ensure clarity and facilitate automation.
 
@@ -27,20 +26,25 @@ The branching strategy revolves around separating the stages of data processing 
 - **Naming Convention**: follow the format `stable_vX_X_X` (e.g., `stable_v0_90_1`).
 - **Usage**: Acts as an intermediary for processed datasets before being deployed to FRINK database servers.
 
-### 3. **Workflows and Processing**
+### **Workflows and Processing**
 !!! info inline end ""	
 
     The following data formats are currently supported
+    <br>
     - Single Neo4j dump files in single repository (WIP)
+    <br>
     - Multiple RDF file with the following extensions : rdf, xml, ttl, nt, nq, jsonld, json, rj, trig, trix, n3 
+    <br>
     - Single HDT (WIP)
-    
-??? Info
-   
-    Please make sure the contents of your files match standard file extensions. The automation pipelines are sensetive to file extensions.
 
 
 Different workflows will manage the transition of raw data to stable datasets in HDT format (preferred by the FRINK system). These workflows can involve data conversion, preprocessing, or other transformations necessary for your system.
+
+    
+??? Note
+   
+    Please make sure the contents of your files match standard file extensions. The automation pipelines are sensetive to file extensions.
+
 
 #### Workflow Process:
 1. **Merge to Main**: When raw data on the `develop` branch is merged into the `main` branch, conversion workflow is triggered.

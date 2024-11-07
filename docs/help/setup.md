@@ -49,7 +49,10 @@ Every dataset hosted in FRINK will have its own lakeFS repository. Data submissi
 
 	 	**Repeat this step for each file you need to upload.** 
 	 
-7. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.<img src="../../assets/images/5uncommitted-changes-tab.png">
+7. Your upload is not complete until you commit the change to lakeFS. Click the **Uncommitted Changes** tab and you will see the upload you made in the previous steps. Click the **Commit Changes** button.
+
+<img src="../../assets/images/5uncommitted-changes-tab.png">
+
 8. The **Commit Changes** pop-up window will appear. Please enter a **Commit Message** providing information about the nature of your upload. We suggest you include your name in case multiple individuals from your team are uploading files to lakeFS. The date and time will be recorded automatically.  
 <img src="../../assets/images/7commit-changes-popup.png" width="400">
 

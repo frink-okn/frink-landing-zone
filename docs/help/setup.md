@@ -34,11 +34,11 @@ Every dataset hosted in FRINK will have its own lakeFS repository. Data submissi
 
 3. Browse to your working repository.
 
-4. By default, your repository would be on main branch, double check to make sure that is set to `develop` branch.
+4. By default, your repository would be on main branch, double check to make sure that is set to `develop` branch.  
  <img src="../../assets/images/13change-branch.png" width="400">
 
 5. Click the **Upload Object** button to upload your dataset/graph.  
-<img src="../../assets/images/3upload-object-button.png" width="500">
+<img src="../../assets/images/3upload-object-button.png" width="600">
 
 6. The **Upload Object** pop-up window will appear offering you the option to drag and drop a single file from your desktop to the pop-up window. Once your file appears in the pop-up, click the **Upload** button to complete the upload. (Although there is a **Path** text field, it will not recognize a file path on your local machine. So please use the drag and drop feature.)
 <img src="../../assets/images/4upload-object-popup.png" width="400">     

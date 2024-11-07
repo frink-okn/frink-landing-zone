@@ -1,7 +1,7 @@
 # Update Your Graph in FRINK
 
 
-To ensure a smooth and automated deployment of data pipelines, establishing structured rules and policies around branch and tag usage in our data repositories is essential. This guide focuses on implementing best practices for versioning datasets and aligning the workflows for raw and stable data processing. By following these guidelines, teams can leverage FRINK's LakeFS repository version control capabilities more efficiently and streamline their automatic deployment processes.
+To ensure a smooth and automated deployment of data pipelines, establishing structured rules and policies around branch and tag usage in our data repositories is essential. This guide focuses on implementing best practices for versioning datasets and aligning the workflows for raw and stable data processing. By following these guidelines, teams can leverage FRINK's lakeFS repository version control capabilities more efficiently and streamline their automatic deployment processes.
 
 ### **Repository Structure**
 

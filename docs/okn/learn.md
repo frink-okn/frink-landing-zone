@@ -7,9 +7,6 @@ Need to correct your graph's information? Please contact [Mahir Morshed](mailto:
 ### IRI prefixes
 The following IRI prefixes have been identified in the Theme 1 graphs and are documented for each graph where applicable.
 
-<details>
-<summary>Prefixes</summary>
-
 | prefix | IRI | 
 | --- | --- | 
 | sosa: | http://www.w3.org/ns/sosa/ |  
@@ -56,7 +53,7 @@ The following IRI prefixes have been identified in the Theme 1 graphs and are do
 | relation: | http://relation.org/ | 
 | attribute: | http://attribute.org/ | 
 | phila: | https://metadata.phila.gov/ |  
-</details>
+
 
 ### Ontology (owl:Ontology)
 
@@ -98,7 +95,3 @@ In turn, these triples will have the following effects:
 - example:myPredicate [rdfs:domain](http://www.w3.org/2000/01/rdf-schema#domain) example:oneDomainType, example:anotherDomainTypeIfNeeded
 - example:myPredicate [rdfs:range](http://www.w3.org/2000/01/rdf-schema#range) example:RangeType
 - example:myPredicate [rdfs:subPropertyOf](http://www.w3.org/2000/01/rdf-schema#subPropertyOf) example:mySuperClass
-
-## Need to correct your graph's information? 
-
-Please contact [Mahir Morshed](mailto:mmorshed@scripps.edu).

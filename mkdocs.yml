@@ -43,7 +43,6 @@ nav:
     - okn/index.md
     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
     - Learn More about the Knowledge Graphs in the PROTO-OKN: okn/learn.md
-      - DREAM KG: okn/dream-kg.md
     - Setup Your FRINK Repo in the Landing Zone: help/setup.md
     - Update Your Graph in FRINK: help/update.md
     - Query FRINK: https://frink.apps.renci.org

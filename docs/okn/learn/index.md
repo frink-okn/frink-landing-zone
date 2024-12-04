@@ -16,7 +16,7 @@ Need to correct your graph's information? Please contact [Mahir Morshed](mailto:
 - [SUDOKN](sudokn-kg.md)
 - [WEN KG](wen-kg.md)
 
-### IRI prefixes
+<bold>IRI prefixes</bold>
 The following IRI prefixes have been identified in the Theme 1 graphs and are documented for each graph where applicable.
 
 | prefix | IRI | 

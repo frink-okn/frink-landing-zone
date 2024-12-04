@@ -6,17 +6,17 @@ Need to correct your graph's information? Please contact [Mahir Morshed](mailto:
 
 ## Theme 1 Graphs:
 
-- [Biobricks] (biobricks-ice-kg.md)
-- [Climate Models] (climate-kg.md)
-- [DREAM KG] (dream-kg.md)
-- [Neighborhood Information] (neighborhood-kg.md)
-- [Rural Resilience] (rural-kg.md)
-- [SAW Graph] (sawgraph-kg.md)
-- [SCALES] (scales-kg.md)
-- [Secure Chain] (secure-chain-kg.md)
-- [SOC KG] (soc-kg.md)
-- [SUDOKN] (sudokn-kg.md)
-- [WEN KG] (wen-kg.md)
+- [Biobricks](biobricks-ice-kg.md)
+- [Climate Models](climate-kg.md)
+- [DREAM KG](dream-kg.md)
+- [Neighborhood Information](neighborhood-kg.md)
+- [Rural Resilience](rural-kg.md)
+- [SAW Graph](sawgraph-kg.md)
+- [SCALES](scales-kg.md)
+- [Secure Chain](secure-chain-kg.md)
+- [SOC KG](soc-kg.md)
+- [SUDOKN](sudokn-kg.md)
+- [WEN KG](wen-kg.md)
 
 ### IRI prefixes
 The following IRI prefixes have been identified in the Theme 1 graphs and are documented for each graph where applicable.

@@ -8,6 +8,8 @@ NASA, NIH, the National Institute of Justice, NOAA and the U.S. Geological Surve
 
 For more information about the larger effort, visit the main PROTO-OKN website: [https://www.proto-okn.net/](https://www.proto-okn.net/)
 
+Why is the mermaid stuff not showing up??
+
 ```mermaid
 graph LR
     hello --> world

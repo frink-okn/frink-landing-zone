@@ -4,7 +4,7 @@ The information provided about Theme 1 graphs was obtained from an analysis of t
 
 Need to correct your graph's information? Please contact [Mahir Morshed](mailto:mmorshed@scripps.edu).
 
-## Theme 1 Graphs:
+## Theme 1 Graphs
 
 - [Biobricks](biobricks-ice-kg.md)
 - [Climate Models](climate-kg.md)

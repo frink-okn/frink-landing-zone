@@ -43,7 +43,7 @@ nav:
     - okn/index.md
     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
     - Learn More about the Knowledge Graphs in the PROTO-OKN: okn/learn.md
-      - Biobricks: biobricks-ice-kg.md
+      - Biobricks: okn/biobricks-ice-kg.md
       - Climate Models: climate-kg.md
       - DREAM KG: dream-kg.md
       - Neighborhood Information: neighborhood-kg.md

@@ -4,29 +4,29 @@ The information provided about Theme 1 graphs was obtained from an analysis of t
 
 Need to correct your graph's information? Please contact [Mahir Morshed](mailto:mmorshed@scripps.edu).
 
-- ### [Biobricks](biobricks-ice-kg.md)
+- #### [Biobricks](biobricks-ice-kg.md)
 
-- ### [Climate Models](climate-kg.md)
+- #### [Climate Models](climate-kg.md)
 
-### [DREAM KG](dream-kg.md)
+#### [DREAM KG](dream-kg.md)
 
-### [Neighborhood Information](neighborhood-kg.md)
+#### [Neighborhood Information](neighborhood-kg.md)
 
-### [Rural Resilience](rural-kg.md)
+#### [Rural Resilience](rural-kg.md)
 
-### [SAW Graph](sawgraph-kg.md)
+#### [SAW Graph](sawgraph-kg.md)
 
-### [SCALES](scales-kg.md)
+#### [SCALES](scales-kg.md)
 
-### [Secure Chain](secure-chain-kg.md)
+#### [Secure Chain](secure-chain-kg.md)
 
-### [SOC KG](soc-kg.md)
+#### [SOC KG](soc-kg.md)
 
-### [SUDOKN](sudokn-kg.md)
+#### [SUDOKN](sudokn-kg.md)
 
-### [WEN KG](wen-kg.md)
+#### [WEN KG](wen-kg.md)
 
-### Graph Notation & Assumptions
+#### Graph Notation & Assumptions
 
 **IRI Prefixes**
 

@@ -1,11 +1,4 @@
-# TODO_Give_this_schema_a_name!
-
-TODO -- tell the world what this schema describes.
-
-URI: secure-chain-kg
-
-Name: secure-chain-kg
-
+# Secure Chain 
 
 
 ## Schema Diagram

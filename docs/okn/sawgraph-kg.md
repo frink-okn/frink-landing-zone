@@ -1,11 +1,6 @@
-# The PFAS specific concepts that extend ContaminOSO
+# SAW Graph
 
-the Contaminant Observation and Samples Ontology (ContaminOSO) developed as part of the AIKnowsPFAS and SAWGraph projects.
-
-URI: sawgraph-kg
-
-Name: sawgraph-kg
-
+The Contaminant Observation and Samples Ontology (ContaminOSO) developed as part of the AIKnowsPFAS and SAWGraph projects.
 
 
 ## Schema Diagram

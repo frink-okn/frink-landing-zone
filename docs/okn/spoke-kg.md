@@ -1,11 +1,4 @@
-# TODO_Give_this_schema_a_name!
-
-TODO -- tell the world what this schema describes.
-
-URI: spoke-kg
-
-Name: spoke-kg
-
+# SPOKE
 
 
 ## Schema Diagram

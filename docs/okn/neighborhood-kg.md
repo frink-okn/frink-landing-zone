@@ -1,12 +1,4 @@
-# TODO_Give_this_schema_a_name!
-
-TODO -- tell the world what this schema describes.
-
-URI: neighborhood-kg
-
-Name: neighborhood-kg
-
-
+# Neighborhood Information
 
 ## Schema Diagram
 

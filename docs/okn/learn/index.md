@@ -30,6 +30,8 @@ Need to correct your graph's information? Please contact [Mahir Morshed](mailto:
 
 ### Graph Notation & Assumptions
 
+some text
+
 **IRI Prefixes**
 
 The following IRI prefixes have been identified in the Theme 1 graphs and are documented for each graph where applicable.

@@ -4,6 +4,19 @@ The information provided about Theme 1 graphs was obtained from an analysis of t
 
 Need to correct your graph's information? Please contact [Mahir Morshed](mailto:mmorshed@scripps.edu).
 
+## Theme 1 Graphs:
+Biobricks: okn/biobricks-ice-kg.md
+Climate Models: okn/climate-kg.md
+DREAM KG: okn/dream-kg.md
+Neighborhood Information: okn/neighborhood-kg.md
+Rural Resilience: okn/rural-kg.md
+SAW Graph: okn/sawgraph-kg.md
+SCALES: okn/scales-kg.md
+Secure Chain: okn/secure-chain-kg.md
+SOC KG: okn/soc-kg.md
+SUDOKN: okn/sudokn-kg.md
+WEN KG: okn/wen-kg.md
+
 ### IRI prefixes
 The following IRI prefixes have been identified in the Theme 1 graphs and are documented for each graph where applicable.
 

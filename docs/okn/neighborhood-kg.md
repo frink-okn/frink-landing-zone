@@ -1,5 +1,4 @@
-# Neighborhood Information
-An Open Knowledge Graph for Neighborhood Information
+# Neighborhood Information: An Open Knowledge Graph for Neighborhood Information
 
 ## Schema Diagram
 

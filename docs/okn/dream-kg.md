@@ -1,5 +1,4 @@
-# DREAM KG
-Develop Dynamic, REsponsive, Adaptive, and Multifaceted Knowledge Graphs to Address Homelessness With Explainable AI
+# DREAM KG: Develop Dynamic, REsponsive, Adaptive, and Multifaceted Knowledge Graphs to Address Homelessness With Explainable AI
 
 ## Schema Diagram
 

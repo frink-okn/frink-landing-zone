@@ -1,5 +1,4 @@
-# SOC KG
-Digging Into Soil Carbon With USDA: A Knowledge Graph Informing Soil Carbon Modeling 
+# SOC KG: Digging Into Soil Carbon With USDA: A Knowledge Graph Informing Soil Carbon Modeling 
 
 
 ## Schema Diagram

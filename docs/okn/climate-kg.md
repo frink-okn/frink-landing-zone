@@ -1,5 +1,4 @@
-# Climate Models 
-## Knowledge Graph to Support Evaluation and Development of Climate Models
+# Climate Models: Knowledge Graph to Support Evaluation and Development of Climate Models
 
 ## Schema Diagram
 

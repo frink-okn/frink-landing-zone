@@ -1,5 +1,4 @@
-# Rural Resilience
-A Cross-Domain Knowledge Graph to Integrate Health and Justice for Rural Resilience
+# Rural Resilience: A Cross-Domain Knowledge Graph to Integrate Health and Justice for Rural Resilience
 
 An ontology which serves the schema for the cross-domain knowledge graph (Rural-KG) to integrate health and justice data for rural resilience.
 

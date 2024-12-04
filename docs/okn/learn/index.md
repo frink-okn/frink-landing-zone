@@ -4,19 +4,32 @@ The information provided about Theme 1 graphs was obtained from an analysis of t
 
 Need to correct your graph's information? Please contact [Mahir Morshed](mailto:mmorshed@scripps.edu).
 
-- [Biobricks](biobricks-ice-kg.md)
-- [Climate Models](climate-kg.md)
-- [DREAM KG](dream-kg.md)
-- [Neighborhood Information](neighborhood-kg.md)
-- [Rural Resilience](rural-kg.md)
-- [SAW Graph](sawgraph-kg.md)
-- [SCALES](scales-kg.md)
-- [Secure Chain](secure-chain-kg.md)
-- [SOC KG](soc-kg.md)
-- [SUDOKN](sudokn-kg.md)
-- [WEN KG](wen-kg.md)
+### [Biobricks](biobricks-ice-kg.md)
 
-<bold>IRI prefixes</bold>
+### [Climate Models](climate-kg.md)
+
+### [DREAM KG](dream-kg.md)
+
+### [Neighborhood Information](neighborhood-kg.md)
+
+### [Rural Resilience](rural-kg.md)
+
+### [SAW Graph](sawgraph-kg.md)
+
+### [SCALES](scales-kg.md)
+
+### [Secure Chain](secure-chain-kg.md)
+
+### [SOC KG](soc-kg.md)
+
+### [SUDOKN](sudokn-kg.md)
+
+### [WEN KG](wen-kg.md)
+
+### Graph Notation & Assumptions
+
+**IRI Prefixes**
+
 The following IRI prefixes have been identified in the Theme 1 graphs and are documented for each graph where applicable.
 
 | prefix | IRI | 
@@ -67,7 +80,7 @@ The following IRI prefixes have been identified in the Theme 1 graphs and are do
 | phila: | https://metadata.phila.gov/ |  
 
 
-### Ontology (owl:Ontology)
+**Ontology (owl:Ontology)**
 
 Currently, a single HDT file is assumed to represent an entire unit of data modeled in a specific way. As a result, exactly one type of entity has been inferred to exist in the Theme 1 graphs: [owl:Ontology]( http://www.w3.org/2002/07/owl#Ontology) 
 
@@ -78,7 +91,7 @@ Consequently, triples for an entity with a CURIE of `example:myOntology` will ha
 - example:myOntology [dct:hasVersion](http://purl.org/dc/terms/title) "0.0.1"
 - example:myOntology [dct:created](http://purl.org/dc/terms/created) "2024-10-30T00:00:00Z"^^xsd:dateTime
 
-### Classes (owl:Class or rdfs:Class)
+**Classes (owl:Class or rdfs:Class)**
 
 Entities are assumed to be either an [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class) or an [owl:Class](http://www.w3.org/2002/07/owl#Class). Consequently, triples for an entity with a CURIE of `example:myClass"` will either be represented as `rdfs:Class` or `owl:Class`. Triples will have the following effects:
 
@@ -87,7 +100,7 @@ Entities are assumed to be either an [rdfs:Class](http://www.w3.org/2000/01/rdf-
 - example:myClass [rdfs:isDefinedBy](http://www.w3.org/2000/01/rdf-schema#isDefinedBy) <https://example.com/schema/that/defines/this/class.html>
 - example:myClass [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf) example:mySuperClass
 
-### Predicates
+**Predicates**
 
 Predicates, e.g., `example:myPredicate` will be represented with at least one of the following triples as appropriate:
 

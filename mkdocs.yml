@@ -43,17 +43,17 @@ nav:
     - okn/index.md
     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
     - Learn More about the Knowledge Graphs in the PROTO-OKN: okn/learn/index.md
-    - Biobricks: okn/learn/biobricks-ice-kg.md
-    - Climate Models: okn/learn/climate-kg.md
-    - DREAM KG: okn/learn/dream-kg.md
-    - Neighborhood Information: okn/learn/neighborhood-kg.md
-    - Rural Resilience: okn/learn/rural-kg.md 
-    - SAW Graph: okn/learn/sawgraph-kg.md
-    - SCALES: okn/learn/scales-kg.md
-    - Secure Chain: okn/learn/secure-chain-kg.md
-    - SOC KG: okn/learn/soc-kg.md
-    - SUDOKN: okn/learn/sudokn-kg.md
-    - WEN KG: okn/learn/wen-kg.md
+      - Biobricks: okn/learn/biobricks-ice-kg.md
+      - Climate Models: okn/learn/climate-kg.md
+      - DREAM KG: okn/learn/dream-kg.md
+      - Neighborhood Information: okn/learn/neighborhood-kg.md
+      - Rural Resilience: okn/learn/rural-kg.md 
+      - SAW Graph: okn/learn/sawgraph-kg.md
+      - SCALES: okn/learn/scales-kg.md
+      - Secure Chain: okn/learn/secure-chain-kg.md
+      - SOC KG: okn/learn/soc-kg.md
+      - SUDOKN: okn/learn/sudokn-kg.md
+      - WEN KG: okn/learn/wen-kg.md
     - Setup Your FRINK Repo in the Landing Zone: help/setup.md
     - Update Your Graph in FRINK: help/update.md
     - Query FRINK: https://frink.apps.renci.org

@@ -21,9 +21,15 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+    custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+     
+
 nav:
   - Home: index.md
   - Quick Start Guide:

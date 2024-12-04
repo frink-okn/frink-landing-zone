@@ -41,6 +41,7 @@ nav:
     - guidance/index.md
   - The Open Knowledge Network:
     - okn/index.md
+    - test: okn/test/testfile.md
     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
     - Learn More about the Knowledge Graphs in the PROTO-OKN: okn/learn.md
       - Biobricks: okn/biobricks-ice-kg.md

@@ -26,7 +26,7 @@ Need to correct your graph's information? Please contact [Mahir Morshed](mailto:
 
 - #### [WEN KG](wen-kg.md)
 
-### ---
+### ___
 
 ### Graph Notation & Assumptions
 

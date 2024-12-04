@@ -26,11 +26,10 @@ Need to correct your graph's information? Please contact [Mahir Morshed](mailto:
 
 - #### [WEN KG](wen-kg.md)
 
-### ---
+---
 
 ### Graph Notation & Assumptions
 
-some text
 
 **IRI Prefixes**
 

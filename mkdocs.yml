@@ -20,15 +20,15 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-    custom_fences:
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid_custom
   - def_list
   - pymdownx.tasklist:
-      custom_checkbox: true
-     
+      custom_checkbox: true     
 
 nav:
   - Home: index.md

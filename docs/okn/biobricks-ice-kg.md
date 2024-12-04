@@ -1,12 +1,4 @@
-# TODO_Give_this_schema_a_name!
-
-TODO -- tell the world what this schema describes.
-
-URI: biobricks-ice-kg
-
-Name: biobricks-ice-kg
-
-
+# Biobricks Ice KG
 
 ## Schema Diagram
 

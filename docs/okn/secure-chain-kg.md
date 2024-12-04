@@ -1,5 +1,5 @@
 # Secure Chain 
-
+Knowledge Graph Construction for Resilient, Trustworthy, and Secure Software Supply Chains
 
 ## Schema Diagram
 

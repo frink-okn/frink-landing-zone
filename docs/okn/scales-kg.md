@@ -1,5 +1,5 @@
 # SCALES
-
+An Integrated Justice Platform to Connect Criminal Justice Data Across Data Silos 
 
 ## Schema Diagram
 

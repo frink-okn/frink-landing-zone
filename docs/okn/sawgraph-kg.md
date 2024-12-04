@@ -1,4 +1,5 @@
 # SAW Graph
+Safe Agricultural Products and Water Graph
 
 The Contaminant Observation and Samples Ontology (ContaminOSO) developed as part of the AIKnowsPFAS and SAWGraph projects.
 

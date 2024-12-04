@@ -1,5 +1,5 @@
 # SPOKE
-
+Connecting Biomedical information on Earth and in Space via the SPOKE knowledge graph
 
 ## Schema Diagram
 

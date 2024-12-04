@@ -1,4 +1,5 @@
-# Biobricks Ice KG
+# Biobricks Ice
+## An Open Knowledge Graph for Cheminformatics and Chemical Safety
 
 ## Schema Diagram
 

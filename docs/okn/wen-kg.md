@@ -1,4 +1,5 @@
-# WEN
+# WEN KG
+## The Water-Energy Nexus Open Knowledge Network
 
 ## Schema Diagram
 

@@ -37,7 +37,7 @@ nav:
     - Setup Your FRINK Repo in the Landing Zone: help/setup.md
     - Update Your Graph in FRINK: help/update.md
     - Query knowledge graphs in FRINK: help/query-page.md
-  - KG Authoring Guidance:
+  - Best Practices:
     - guidance/index.md
   - The Open Knowledge Network:
     - okn/index.md

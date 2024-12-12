@@ -63,6 +63,9 @@ The following knowledge graphs are currently available within FRINK. The SPARQL 
 - FIO-KG
     - SPARQL: `https://frink.apps.renci.org/fiokg/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/fiokg`
+- Geoconnex
+    - SPARQL: `https://frink.apps.renci.org/geoconnex/sparql`
+    - TPF: `https://frink.apps.renci.org/ldf/geoconnex`
 - Hydrology KG
     - SPARQL: `https://frink.apps.renci.org/hydrologykg/sparql`
     - TPF: `https://frink.apps.renci.org/ldf/hydrologykg`

@@ -20,6 +20,8 @@ Need to correct your graph's information? Please contact [Mahir Morshed](mailto:
 
 - #### [Secure Chain](secure-chain-kg.md)
 
+- #### [SPOKE](spoke-kg.md)
+
 - #### [SOC KG](soc-kg.md)
 
 - #### [SUDOKN](sudokn-kg.md)

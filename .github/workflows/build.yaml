@@ -1,0 +1,37 @@
+name: Build derived files
+on:
+  # Allows for on-demand build
+  workflow_dispatch:
+  # Automatically rebuilds when somebody edits a markdown file in
+  # the kgs/ directory
+  push:
+    branches:
+      - main
+    paths:
+      - 'kgs/*.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: snakemake/snakemake:v8.27.1
+    steps:
+      - uses: actions/checkout@master
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
+      - name: Create local changes
+        run: |
+          snakemake -c2 --show-failed-logs --use-conda registry/kgs.yaml
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "🚀 Automatically rebuilt derived files" -a
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Update KG registry metadata
+          title: 'Update KG registry metadata'
+          body: |
+            Recreates all KG registry metadata.
+          assignees: balhoff

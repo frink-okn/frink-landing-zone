@@ -22,15 +22,11 @@ jobs:
       - name: Create local changes
         run: |
           snakemake -c2 --show-failed-logs --use-conda registry/kgs.yaml
-      - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "🚀 Automatically rebuilt derived files" -a
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: Update KG registry metadata
+          commit-message: "🚀 Automatically rebuilt derived files"
+          committer: "GitHub Action <action@github.com>"
           title: 'Update KG registry metadata'
           body: |
             Recreates all KG registry metadata.

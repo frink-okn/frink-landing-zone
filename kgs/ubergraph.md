@@ -2,7 +2,7 @@
 shortname: ubergraph
 title: Ubergraph
 description: Integrated suite of OBO ontologies with precomputed inferred relationships
-homepage: https://github.com/INCATools/ubergraph/
+homepage: https://github.com/INCATools/ubergraph
 sparql: https://frink.apps.renci.org/ubergraph/sparql
 tpf: https://frink.apps.renci.org/ldf/ubergraph
 ---

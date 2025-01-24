@@ -64,7 +64,7 @@ kgs:
   title: DREAM-KG
   tpf: https://frink.apps.renci.org/ldf/dreamkg
 - description: Integrated suite of OBO ontologies with precomputed inferred relationships
-  homepage: https://github.com/INCATools/ubergraph
+  homepage: https://github.com/INCATools/ubergraph/
   shortname: ubergraph
   sparql: https://frink.apps.renci.org/ubergraph/sparql
   title: Ubergraph

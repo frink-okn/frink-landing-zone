@@ -1,0 +1,7 @@
+name: site_build_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pyyaml
+  - python-frontmatter

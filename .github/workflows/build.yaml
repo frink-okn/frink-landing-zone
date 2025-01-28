@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - 'kgs/*.md'
+      - 'docs/registry/kgs/*.md'
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
       - name: Create local changes
         run: |
-          touch kgs/*.md; snakemake -c2 --show-failed-logs --use-conda registry/kgs.yaml
+          touch docs/registry/kgs/*.md; snakemake -c2 --show-failed-logs --use-conda docs/registry/kgs.yaml
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:

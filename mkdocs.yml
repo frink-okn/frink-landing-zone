@@ -15,8 +15,8 @@ theme:
     - toc.follow
     - toc.integrate
     - navigation.indexes
-extra_css:
-  - styles.css
+#extra_css:
+  #- styles.css
 plugins:
   - search
   - mermaid2:

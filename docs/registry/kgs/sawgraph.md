@@ -2,11 +2,11 @@
 template: overrides/kg.html
 shortname: sawgraph
 title: SAWGraph
-description: Safe agricultural products and water graph
+description: Safe Agricultural Products and Water Graph (SAWGraph) is an open knowledge network to monitor and trace PFAS and other contaminants in the nation's food and water systems.
 homepage: https://sawgraph.github.io/
-funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782
+funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782
 sparql: https://frink.apps.renci.org/sawgraph/sparql
 tpf: https://frink.apps.renci.org/ldf/sawgraph
 ---
 
-Safe Agricultural Products and Water Graph (SAWGraph): an open knowledge network to monitor and trace PFAS and other contaminants in the nation's food and water systems.
+

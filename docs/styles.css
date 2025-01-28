@@ -220,7 +220,6 @@ body {
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
-  /*not getting rid of the green?*/
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;

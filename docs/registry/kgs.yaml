@@ -5,6 +5,16 @@ kgs:
   shortname: biohealthkg
   template: overrides/kg.html
   title: Bio-Health KG
+- description: 'Dynamic, REsponsive, Adaptive, and Multifaceted Knowledge Graph (DREAM-KG):
+    An Open Knowledge Network to partially address homelessness with consideration
+    of the social, economic, environmental, and political factors.'
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333703&HistoricalAwards=false
+  homepage: https://dreamkg.com/
+  shortname: dreamkg
+  sparql: https://frink.apps.renci.org/dreamkg/sparql
+  template: overrides/kg.html
+  title: DREAM-KG
+  tpf: https://frink.apps.renci.org/ldf/dreamkg
 - description: 'SecureChain: knowledge graph construction for resilient, trustworthy,
     and secure software supply chains'
   funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333736&HistoricalAwards=false
@@ -69,15 +79,6 @@ kgs:
   template: overrides/kg.html
   title: SemOpenAlex
   tpf: https://frink.apps.renci.org/ldf/semopenalex
-- description: Develop Dynamic, REsponsive, Adaptive, and Multifaceted Knowledge Graphs
-    to Address Homelessness With Explainable AI
-  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333703&HistoricalAwards=false
-  homepage: https://dreamkg.com/
-  shortname: dreamkg
-  sparql: https://frink.apps.renci.org/dreamkg/sparql
-  template: overrides/kg.html
-  title: DREAM-KG
-  tpf: https://frink.apps.renci.org/ldf/dreamkg
 - description: Integrated suite of OBO ontologies with precomputed inferred relationships
   homepage: https://github.com/INCATools/ubergraph/
   shortname: ubergraph

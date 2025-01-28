@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: ufokn
 title: UF-OKN
 description: Urban Flooding Open Knowledge Network (UF-OKN)

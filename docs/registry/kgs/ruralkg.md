@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: ruralkg
 title: Rural Resilience KG
 description: A cross-domain knowledge graph to integrate health and justice for rural resilience

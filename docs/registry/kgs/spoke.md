@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: spoke
 title: SPOKE
 description: Scalable Precision Medicine Open Knowledge Engine. A database of databases.

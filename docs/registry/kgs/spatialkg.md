@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: spatialkg
 title: SAWGraph Spatial KG
 description: SAWGraph Spatial KG

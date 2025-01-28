@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: climatepub4kg
 title: Climatepub4-KG
 description: A knowledge graph to support evaluation and development of climate models

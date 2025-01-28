@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: securechainkg
 title: SecureChain KG
 description: 'SecureChain: knowledge graph construction for resilient, trustworthy, and secure software supply chains'

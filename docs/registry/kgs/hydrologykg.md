@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: hydrologykg
 title: SAWGraph Hydrology KG
 description: SAWGraph Hydrology KG

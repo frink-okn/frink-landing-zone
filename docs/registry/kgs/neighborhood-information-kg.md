@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: neighborhood-information-kg
 title: Neighborhood Information KG
 description: A knowledge graph warehouse for neighborhood information

@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: sudokn
 title: SUDOKN
 description: Supply and Demand Open Knowledge Network

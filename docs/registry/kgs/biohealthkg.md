@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: biohealthkg
 title: Bio-Health KG
 description: 'A dynamically-updated open knowledge network for health: integrating biomedical insights with social determinants of health'

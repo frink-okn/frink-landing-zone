@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: sockg
 title: SOC-KG
 description: A knowledge graph informing soil carbon modeling

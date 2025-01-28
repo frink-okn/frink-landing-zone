@@ -18,7 +18,9 @@
   </div>
   <div class="card-body">
       <ul>
+        {% if page.meta.homepage %}
         <li><a href="{{ page.meta.homepage }}">Project Homepage</a></li>
+        {% endif %}
         <li><a href="{{ page.meta.funding }}">Funding</a></li>
   </div>
 </div>

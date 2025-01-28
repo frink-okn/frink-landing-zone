@@ -3,6 +3,14 @@
 {% block content %}
 {{ super() }}
 
+
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">KG Shortname</h5>
+      <p class="card-text">{{ page.meta.shortname }}</p>
+    </div>
+  </div>
+
 <p><b>Shortname:</b> {{ page.meta.shortname }}</p>
 <p><b>Description:</b> {{ page.meta.description }}</p>
 

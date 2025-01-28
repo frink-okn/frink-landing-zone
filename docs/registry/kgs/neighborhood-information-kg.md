@@ -1,6 +1,6 @@
 ---
 template: overrides/kg.html
-shortname: neighborhood-information-kg
+shortname: NIKG
 title: Neighborhood Information KG
 description: A knowledge graph warehouse for neighborhood information
 homepage: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333790&HistoricalAwards=false

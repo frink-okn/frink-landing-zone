@@ -226,6 +226,7 @@ body {
   --bs-card-bg: var(--bs-body-bg);
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
+  --bs-card-header-font-weigh: 700;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -292,7 +293,7 @@ body {
   color: var(--bs-card-cap-color);
   background-color: var(--bs-card-cap-bg);
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
-  font-weight: 700
+  font-weight: var(--bs-card-header-font-weight);
 }
 .card-header:first-child {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;

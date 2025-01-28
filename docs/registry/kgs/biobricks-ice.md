@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: biobricks-ice
 title: BioBricks ICE
 description: An open knowledge graph for cheminformatics and chemical safety

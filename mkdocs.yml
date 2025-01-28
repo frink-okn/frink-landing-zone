@@ -1,6 +1,7 @@
 site_name: "FRINK OKN"
 theme:
   name: material
+  custom_dir: material
   palette:
     scheme: default
     primary: light blue

@@ -40,7 +40,7 @@ kgs:
   tpf: https://frink.apps.renci.org/ldf/climatepub4kg
 - description: A knowledge graph warehouse for neighborhood information
   funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333790&HistoricalAwards=false
-  shortname: NIKG
+  shortname: nikg
   sparql: https://frink.apps.renci.org/neighborhood-information-kg/sparql
   template: overrides/kg.html
   title: Neighborhood Information KG

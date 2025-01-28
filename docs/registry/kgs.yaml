@@ -1,12 +1,13 @@
 kgs:
 - description: 'A dynamically-updated open knowledge network for health: integrating
     biomedical insights with social determinants of health'
-  homepage: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333740&HistoricalAwards=false
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333740&HistoricalAwards=false
   shortname: biohealthkg
   template: overrides/kg.html
   title: Bio-Health KG
 - description: 'SecureChain: knowledge graph construction for resilient, trustworthy,
     and secure software supply chains'
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333736&HistoricalAwards=false
   homepage: https://purdue-hcss.github.io/nsf-software-supply-chain_security/
   shortname: securechainkg
   sparql: https://frink.apps.renci.org/securechainkg/sparql
@@ -15,13 +16,14 @@ kgs:
   tpf: https://frink.apps.renci.org/ldf/securechainkg
 - description: A cross-domain knowledge graph to integrate health and justice for
     rural resilience
-  homepage: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333836&HistoricalAwards=false
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333836&HistoricalAwards=false
   shortname: ruralkg
   sparql: https://frink.apps.renci.org/ruralkg/sparql
   template: overrides/kg.html
   title: Rural Resilience KG
   tpf: https://frink.apps.renci.org/ldf/ruralkg
 - description: A knowledge graph informing soil carbon modeling
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333834&HistoricalAwards=false
   homepage: https://idir.uta.edu/sockg/
   shortname: sockg
   sparql: https://frink.apps.renci.org/sockg/sparql
@@ -30,21 +32,22 @@ kgs:
   tpf: https://frink.apps.renci.org/ldf/sockg
 - description: A knowledge graph to support evaluation and development of climate
     models
-  homepage: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333789&HistoricalAwards=false
-  shortname: climatepub4kg
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333789&HistoricalAwards=false
+  shortname: climatemodelskg
   sparql: https://frink.apps.renci.org/climatepub4kg/sparql
   template: overrides/kg.html
-  title: Climatepub4-KG
+  title: Climate Models KG
   tpf: https://frink.apps.renci.org/ldf/climatepub4kg
 - description: A knowledge graph warehouse for neighborhood information
-  homepage: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333790&HistoricalAwards=false
-  shortname: neighborhood-information-kg
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333790&HistoricalAwards=false
+  shortname: NIKG
   sparql: https://frink.apps.renci.org/neighborhood-information-kg/sparql
   template: overrides/kg.html
   title: Neighborhood Information KG
   tpf: https://frink.apps.renci.org/ldf/neighborhood-information-kg
 - description: An integrated justice platform to connect criminal justice data across
     data silos
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333803&HistoricalAwards=false
   homepage: https://scales-okn.org/
   shortname: scales
   sparql: https://frink.apps.renci.org/scales/sparql
@@ -52,6 +55,7 @@ kgs:
   title: SCALES
   tpf: https://frink.apps.renci.org/ldf/scales
 - description: An open knowledge graph for cheminformatics and chemical safety
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333728&HistoricalAwards=false
   homepage: https://github.com/biobricks-ai
   shortname: biobricks-ice
   sparql: https://frink.apps.renci.org/biobricks-ice/sparql
@@ -67,6 +71,7 @@ kgs:
   tpf: https://frink.apps.renci.org/ldf/semopenalex
 - description: Develop Dynamic, REsponsive, Adaptive, and Multifaceted Knowledge Graphs
     to Address Homelessness With Explainable AI
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333703&HistoricalAwards=false
   homepage: https://dreamkg.com/
   shortname: dreamkg
   sparql: https://frink.apps.renci.org/dreamkg/sparql
@@ -81,13 +86,15 @@ kgs:
   title: Ubergraph
   tpf: https://frink.apps.renci.org/ldf/ubergraph
 - description: Knowledge networks for wildlife management under climate change
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333795&HistoricalAwards=false
   homepage: https://sites.nd.edu/kn-wildlife/
-  shortname: wildlifekg
+  shortname: wildlifekn
   sparql: https://frink.apps.renci.org/wildlifekg/sparql
   template: overrides/kg.html
-  title: KN-Wildlife
+  title: Wildlife-KN
   tpf: https://frink.apps.renci.org/ldf/wildlifekg
 - description: SAWGraph FIO KG
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782
   homepage: https://sawgraph.github.io/
   shortname: fiokg
   sparql: https://frink.apps.renci.org/fiokg/sparql
@@ -95,6 +102,7 @@ kgs:
   title: SAWGraph FIO KG
   tpf: https://frink.apps.renci.org/ldf/fiokg
 - description: SAWGraph Hydrology KG
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782
   homepage: https://sawgraph.github.io/
   shortname: hydrologykg
   sparql: https://frink.apps.renci.org/hydrologykg/sparql
@@ -102,6 +110,7 @@ kgs:
   title: SAWGraph Hydrology KG
   tpf: https://frink.apps.renci.org/ldf/hydrologykg
 - description: SAWGraph Spatial KG
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782
   homepage: https://sawgraph.github.io/
   shortname: spatialkg
   sparql: https://frink.apps.renci.org/spatialkg/sparql
@@ -109,6 +118,7 @@ kgs:
   title: SAWGraph Spatial KG
   tpf: https://frink.apps.renci.org/ldf/spatialkg
 - description: Safe agricultural products and water graph
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782
   homepage: https://sawgraph.github.io/
   shortname: sawgraph
   sparql: https://frink.apps.renci.org/sawgraph/sparql
@@ -116,6 +126,7 @@ kgs:
   title: SAWGraph
   tpf: https://frink.apps.renci.org/ldf/sawgraph
 - description: Scalable Precision Medicine Open Knowledge Engine. A database of databases.
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333819&HistoricalAwards=false
   homepage: https://spoke.ucsf.edu
   shortname: spoke
   sparql: https://frink.apps.renci.org/spoke/sparql
@@ -123,6 +134,7 @@ kgs:
   title: SPOKE
   tpf: https://frink.apps.renci.org/ldf/spoke
 - description: Supply and Demand Open Knowledge Network
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333801&HistoricalAwards=false
   homepage: https://projects.engineering.asu.edu/sudokn/
   shortname: sudokn
   sparql: https://frink.apps.renci.org/sudokn/sparql
@@ -130,6 +142,7 @@ kgs:
   title: SUDOKN
   tpf: https://frink.apps.renci.org/ldf/sudokn
 - description: Urban Flooding Open Knowledge Network (UF-OKN)
+  funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333726&HistoricalAwards=false
   homepage: https://ufokn.com
   shortname: ufokn
   sparql: https://frink.apps.renci.org/ufokn/sparql

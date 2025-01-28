@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: semopenalex
 title: SemOpenAlex
 description: Comprehensive information on scientific publications and related entities.

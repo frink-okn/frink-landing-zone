@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: sawgraph
 title: SAWGraph
 description: Safe agricultural products and water graph

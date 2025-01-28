@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: ubergraph
 title: Ubergraph
 description: Integrated suite of OBO ontologies with precomputed inferred relationships

@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: fiokg
 title: SAWGraph FIO KG
 description: SAWGraph FIO KG

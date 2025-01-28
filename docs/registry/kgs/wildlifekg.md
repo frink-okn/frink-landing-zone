@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: wildlifekg
 title: KN-Wildlife
 description: Knowledge networks for wildlife management under climate change

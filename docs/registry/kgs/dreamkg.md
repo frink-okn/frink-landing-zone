@@ -1,4 +1,5 @@
 ---
+template: overrides/kg.html
 shortname: dreamkg
 title: DREAM-KG
 description: Develop Dynamic, REsponsive, Adaptive, and Multifaceted Knowledge Graphs to Address Homelessness With Explainable AI

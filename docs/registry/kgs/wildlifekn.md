@@ -1,9 +1,10 @@
 ---
 template: overrides/kg.html
-shortname: wildlifekg
-title: KN-Wildlife
+shortname: wildlifekn
+title: Wildlife-KN
 description: Knowledge networks for wildlife management under climate change
 homepage: https://sites.nd.edu/kn-wildlife/
+funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333795&HistoricalAwards=false
 sparql: https://frink.apps.renci.org/wildlifekg/sparql
 tpf: https://frink.apps.renci.org/ldf/wildlifekg
 ---

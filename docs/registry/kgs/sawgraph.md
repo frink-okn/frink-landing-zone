@@ -4,6 +4,7 @@ shortname: sawgraph
 title: SAWGraph
 description: Safe agricultural products and water graph
 homepage: https://sawgraph.github.io/
+funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333782
 sparql: https://frink.apps.renci.org/sawgraph/sparql
 tpf: https://frink.apps.renci.org/ldf/sawgraph
 ---

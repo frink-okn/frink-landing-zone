@@ -4,6 +4,7 @@ shortname: sockg
 title: SOC-KG
 description: A knowledge graph informing soil carbon modeling
 homepage: https://idir.uta.edu/sockg/
+funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333834&HistoricalAwards=false
 sparql: https://frink.apps.renci.org/sockg/sparql
 tpf: https://frink.apps.renci.org/ldf/sockg
 ---

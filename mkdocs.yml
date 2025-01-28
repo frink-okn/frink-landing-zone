@@ -13,7 +13,6 @@ theme:
     - navigation.path
     - navigation.indexes
     - toc.follow
-    - toc.integrate
     - navigation.indexes
 plugins:
   - search

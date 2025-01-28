@@ -5,28 +5,12 @@
 
 <div class="card" style="margin-bottom: 1.5em;">
     <div class="card-header">
-      Shortname
+      SOME TITLE
     </div>
     <p class="card-text">{{ page.meta.shortname }}</p>
+    <p class="card-text">{{ page.meta.description }}</p>
 </div>
 
-<p><b>Shortname:</b> {{ page.meta.shortname }}</p>
-<p><b>Description:</b> {{ page.meta.description }}</p>
-
-{% if page.meta.funding %}
-<div class="card" style="margin-bottom: 1.5em;">
-  <div class="card-header">
-    Funding
-  </div>
-  <div class="list-group list-group-flush">
-    {% for p in page.funded_by %}
-    <div class="list-group-item">
-      <a href="{{ p.id }}">{{ page.meta.funding }}</a>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
 
 
 

@@ -1,5 +1,9 @@
 {% extends "main.html" %}
 
+{% block htmltitle %}
+  <title>{{ page.meta.title }}</title>
+{% endblock %}
+
 {% block tabs %}
 {{ super() }}
 

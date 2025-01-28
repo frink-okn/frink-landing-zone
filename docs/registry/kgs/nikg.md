@@ -1,6 +1,6 @@
 ---
 template: overrides/kg.html
-shortname: NIKG
+shortname: nikg
 title: Neighborhood Information KG
 description: A knowledge graph warehouse for neighborhood information
 # homepage: 

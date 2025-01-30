@@ -13,7 +13,6 @@ theme:
     - navigation.path
     - navigation.indexes
     - toc.follow
-    - toc.integrate
     - navigation.indexes
 extra_css:
   - styles.css

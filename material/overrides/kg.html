@@ -2,10 +2,11 @@
 
 {% block content %}
 
-{{ super() }}
-<div class="card-body">
+
+<p class="card-text">
   <b>Shortname:</b> {{ page.meta.shortname }}<br/>
-</div>
+  {{ page.content }}
+</p>
 
 <div class="card" style="margin-bottom: 1.5em;">
   <div class="card-header">

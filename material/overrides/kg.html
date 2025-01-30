@@ -3,9 +3,10 @@
 {% block content %}
 
 
-<p class="card-text">
-  <b>Shortname:</b> {{ page.meta.shortname }}<br/>
-  {{ page.content }}
+<div class="card" style="margin-bottom: 1.5em;">
+  <div class="card-body">
+    <p><b>Shortname:</b> {{ page.meta.shortname }}</p>
+  <p>{{ page.content }}</p>
 </p>
 
 <div class="card" style="margin-bottom: 1.5em;">

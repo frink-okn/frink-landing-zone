@@ -9,5 +9,7 @@ funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333728
 sparql: https://frink.apps.renci.org/biobricks-ice/sparql
 tpf: https://frink.apps.renci.org/ldf/biobricks-ice
 ---
+Biobricks ICE is an open knowledge graph for cheminformatics and chemical safety.
+
 
 

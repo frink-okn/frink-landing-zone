@@ -3,14 +3,12 @@
 {% block content %}
 {{ super() }}
 
-<div class="card" style="margin-bottom: 1.5em;">
-    <div class="card-header">
-      <b>{{ page.meta.shortname }}</b>
-    </div>
-    <div class="card-body">
-        {{ page.meta.description }}
-    </div>
-</div>
+
+{% if stripped_content_size > 0 %}
+    <p class="card-text">{{ page.meta.shortname }}<br/>
+    {{ content }}</p>
+{% endif %}
+
 
 <div class="card" style="margin-bottom: 1.5em;">
   <div class="card-header">

@@ -2,13 +2,12 @@
 
 {% block content %}
 
-<div class="card-body">
-    <b>Shortname:</b> {{ page.meta.shortname }}<br/>
-    {{ content }}
-</div>
+
 
 {{ super() }}
-
+<div class="card-body">
+  <b>Shortname:</b> {{ page.meta.shortname }}<br/>
+</div>
 
 <div class="card" style="margin-bottom: 1.5em;">
   <div class="card-header">

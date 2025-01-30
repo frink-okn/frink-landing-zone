@@ -1,14 +1,18 @@
 {% extends "main.html" %}
 
-{% block content %}
 
-{{ page.meta.title}}
+
+
+{% block htmltitle %}
+  <title>{{ page.meta.title}}</title>
+{% endblock %}
+
+{% block content %}
 
 <div class="card" style="margin-bottom: 1.5em;">
   <div class="card-body">
     <p><b>Shortname:</b> {{ page.meta.shortname }}</p>
-    <p>Some text</p>
-  <p>{{ page.content }}</p>
+    <p>{{ page.content }}</p>
   </div>
   </div>
 

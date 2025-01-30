@@ -3,7 +3,7 @@ template: overrides/kg.html
 shortname: biobricks-ice
 title: BioBricks ICE
 description: Biobricks ICE is an open knowledge graph for cheminformatics and chemical safety.
-stats: https://frink.renci.org/registry/kg-stats/biobricks-ice-kg
+stats: https://frink.renci.org/kg-stats/biobricks-ice-kg
 homepage: https://github.com/biobricks-ai
 funding: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2333728
 sparql: https://frink.apps.renci.org/biobricks-ice/sparql

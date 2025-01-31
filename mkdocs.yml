@@ -5,6 +5,8 @@ theme:
   palette:
     scheme: default
     primary: light blue
+  font:
+    text: Open Sans
   features: 
     - navigation.tabs
     - navigation.tabs.sticky

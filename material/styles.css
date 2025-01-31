@@ -190,6 +190,10 @@
     scroll-behavior: smooth;
   }
 }
+@font-face {
+  font-family: "Nunito";
+  src: "../fonts/";
+}
 
 body {
   margin: 0;

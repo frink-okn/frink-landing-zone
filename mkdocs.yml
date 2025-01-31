@@ -15,7 +15,6 @@ theme:
     - toc.follow
     - toc.integrate #puts the page anchor links on the left, instead of the righ
     - navigation.indexes
-    - tabs: true
 extra_css:
   - styles.css
 plugins:

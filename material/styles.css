@@ -1,10 +1,8 @@
 @charset "UTF-8";
 
 :root {
-  --md-primary-fg-color: #23d585;
+  --md-primary-fg-color: #0277BD;
   }
-  
-
 *,
 *::before,
 *::after {

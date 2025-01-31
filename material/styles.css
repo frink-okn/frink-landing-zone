@@ -4,7 +4,8 @@
 [data-bs-theme=light] {
 /*--bs-blue: #0d6efd;*/
   --md-primary-fg-color: #4682B4;
-  --bs-indigo: #6610f2;
+/*  --bs-indigo: #6610f2; */
+  --bs-indigo: #4682B4;
   --bs-blue: #4682B4;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;

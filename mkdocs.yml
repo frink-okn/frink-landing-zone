@@ -5,7 +5,8 @@ theme:
   palette:
     scheme: default
     primary: light blue
-  fonts: Nunito
+  font:
+    text: Nunito
   features: 
     - navigation.tabs
     - navigation.tabs.sticky

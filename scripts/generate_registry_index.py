@@ -16,9 +16,9 @@ def process_markdown_files(input_files, output_file):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     for file in input_files:
         with open(file, "r") as f:
-            print(file)
             doc = frontmatter.load(f)
-            output += f"| {doc.metadata['shortname']} | {doc.metadata['title']} | {doc.metadata['description']} |\n"
+            shortname = doc.metadata['shortname']
+            output += f"| [{shortname}](kgs/{shortname}/) | {doc.metadata['title']} | {doc.metadata['description']} |\n"
     with open(output_file, "w") as f:
         f.write(output)
 

@@ -47,8 +47,8 @@ nav:
     - guidance/index.md
   - The Open Knowledge Network:
     - okn/index.md
-    - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
     - OKN Registry: registry/index.md
+    - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
     - Setup Your FRINK Repo in the Landing Zone: help/setup.md
     - Update Your Graph in FRINK: help/update.md
     - Query FRINK: https://frink.apps.renci.org

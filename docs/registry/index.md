@@ -1,7 +1,7 @@
 
 # OKN registry
 
-## Knowledge graphs registered with the Open Knowledge Network
+**Knowledge graphs registered with the Open Knowledge Network**
 
 | Shortname | Title | Description |
 | :-------- | :---- | :---------- |

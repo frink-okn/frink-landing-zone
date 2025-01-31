@@ -4,9 +4,9 @@ theme:
   custom_dir: material
   palette:
     scheme: default
-    primary: light blue
+    primary: custom
   font:
-    text: Nunito
+    text: Open Sans
   features: 
     - navigation.tabs
     - navigation.tabs.sticky

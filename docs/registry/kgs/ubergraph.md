@@ -3,6 +3,7 @@ template: overrides/kg.html
 shortname: ubergraph
 title: Ubergraph
 description: Integrated suite of OBO ontologies with precomputed inferred relationships
+#stats:
 homepage: https://github.com/INCATools/ubergraph/
 sparql: https://frink.apps.renci.org/ubergraph/sparql
 tpf: https://frink.apps.renci.org/ldf/ubergraph

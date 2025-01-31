@@ -3,6 +3,7 @@ template: overrides/kg.html
 shortname: semopenalex
 title: SemOpenAlex
 description: Comprehensive information on scientific publications and related entities.
+# stats:
 homepage: https://semopenalex.org/
 sparql: https://frink.apps.renci.org/semopenalex/sparql
 tpf: https://frink.apps.renci.org/ldf/semopenalex

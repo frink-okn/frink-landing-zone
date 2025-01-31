@@ -4,7 +4,7 @@ theme:
   custom_dir: material
   palette:
     scheme: default
-    primary: steelblue
+    primary: blue
   font:
     text: Open Sans
   features: 

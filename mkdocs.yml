@@ -4,7 +4,7 @@ theme:
   custom_dir: material
   palette:
     scheme: default
-    primary: indigo
+    primary: custom
   font:
     text: Open Sans
   features: 

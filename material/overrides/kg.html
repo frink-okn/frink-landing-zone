@@ -22,7 +22,9 @@
         {% endif %}
         <li><a href="{{ page.meta.funding }}">Funding</a></li>
       </ul>
+      {% if page.meta.stats %}
       <p>See FRINK's generated <a href="{{ page.meta.stats }}">graph summary.</a></p>
+      {% endif %}
   </div>
 </div>
 

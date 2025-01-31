@@ -6,7 +6,7 @@ theme:
     scheme: default
     primary: light blue
   font:
-    text: Open Sans
+    text: Lato
   features: 
     - navigation.tabs
     - navigation.tabs.sticky

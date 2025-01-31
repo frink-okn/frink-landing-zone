@@ -6,7 +6,7 @@ theme:
     scheme: default
     primary: light blue
   font:
-    text: Nunito Sans
+    text: Playwrite India
   features: 
     - navigation.tabs
     - navigation.tabs.sticky

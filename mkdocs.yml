@@ -2,6 +2,7 @@ site_name: "FRINK OKN"
 theme:
   name: material
   custom_dir: material
+  logo: false
   palette:
     scheme: default
     primary: custom

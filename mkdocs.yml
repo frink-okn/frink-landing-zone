@@ -6,7 +6,7 @@ theme:
     scheme: default
     primary: light blue
   font:
-    text: Lato
+    text: Playwrite India
   features: 
     - navigation.tabs
     - navigation.tabs.sticky

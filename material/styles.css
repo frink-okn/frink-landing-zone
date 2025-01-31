@@ -3,7 +3,7 @@
 :root,
 {
   --md-primary-fg-color: #4682B4;
-  }
+}
 
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -180,10 +180,6 @@
   --bs-form-invalid-color: #ea868f;
   --bs-form-invalid-border-color: #ea868f;
 }
-
-
-:root 
-
 
 *,
 *::before,

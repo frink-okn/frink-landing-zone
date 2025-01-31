@@ -5,8 +5,6 @@ theme:
   palette:
     scheme: default
     primary: light blue
-  font:
-    text: Playwrite India
   features: 
     - navigation.tabs
     - navigation.tabs.sticky
@@ -15,7 +13,7 @@ theme:
     - navigation.path
     - navigation.indexes
     - toc.follow
-    - toc.integrate #puts the page anchor links on the left, instead of the righ
+    - toc.integrate #puts the page anchor links on the left, instead of the right
     - navigation.indexes
 extra_css:
   - styles.css

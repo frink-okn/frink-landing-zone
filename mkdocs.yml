@@ -46,11 +46,9 @@ nav:
   - Best Practices:
     - guidance/index.md
   - The OKN Registry:
-    - okn/index.md
-    - OKN Registry: registry/index.md
-    - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md
-    - Setup Your FRINK Repo in the Landing Zone: help/setup.md
-    - Update Your Graph in FRINK: help/update.md
+    - registry/index.md
     - Query FRINK: https://frink.apps.renci.org
 site_url: https://frink-okn.github.io
 repo_url: https://github.com/frink-okn/frink-landing-zone/
+
+#     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md (add these links to the registry pages)

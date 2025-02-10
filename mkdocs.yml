@@ -45,7 +45,7 @@ nav:
     - Query knowledge graphs in FRINK: help/query-page.md
   - Best Practices:
     - guidance/index.md
-  - The Open Knowledge Network:
+  - The OKN Registry:
     - okn/index.md
     - OKN Registry: registry/index.md
     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md

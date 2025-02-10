@@ -1,6 +1,4 @@
-# About FRINK
-
-## Building the Prototype Open Knowledge Network (Proto-OKN) Program
+# FRINK: Integrating Knowledge in the Prototype Open Knowledge Network (Proto-OKN) Program
 
 In collaboration with five other U.S. government agencies, the U.S. [National Science Foundation](https://nsf.org) (NSF) has [invested $26.7 million in 18 projects through its Building the Prototype Open Knowledge Network (Proto-OKN) program](https://new.nsf.gov/tip/updates/nsf-invests-first-ever-prototype-open-knowledge-network). NASA, NIH, the National Institute of Justice, NOAA and the U.S. Geological Survey are partnering with NSF on this effort and will work closely with the awardees to ensure that Proto-OKN supports each agency’s data strategy while addressing use cases associated with agency data. 
 

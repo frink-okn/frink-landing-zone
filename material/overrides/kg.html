@@ -1,44 +1,42 @@
 {% extends "main.html" %}
 
-
 {% block content %}
 <h1>{{ page.meta.title }}</h1>
-
-<div class="card" style="margin-bottom: 1.5em;">
-  <div class="card-body">
-    <p><b>Shortname:</b> {{ page.meta.shortname }}</p>
-    <p>{{ page.content }}</p>
-  </div>
-  </div>
-
-<div class="card" style="margin-bottom: 1.5em;">
-  <div class="card-header">
-    <b>Links</b>
-  </div>
-  <div class="card-body">
-      <ul>
-        {% if page.meta.homepage %}
-        <li><a href="{{ page.meta.homepage }}">Project Homepage</a></li>
-        {% endif %}
-        <li><a href="{{ page.meta.funding }}">Funding</a></li>
-      </ul>
-      {% if page.meta.stats %}
-      <p>See FRINK's generated <a href="{{ page.meta.stats }}">graph summary.</a></p>
-      {% endif %}
-  </div>
-</div>
-
-<div class="card" style="margin-bottom: 1.5em;">
-  <div class="card-header">
-    <b>Work with the KG</b>
-  </div>
-  <div class="card-body">
-      <ul>
-        <li>SPARQL: <code>{{ page.meta.sparql }}</code></li>
-        <li><a href="{{ page.meta.tpf }}">Triple Pattern Fragments</a></li>
-  </div>
-</div>
+<h3>{{ page.meta.description }}</h3>
+<main>
+    <aside style="float: right; width: 30%; margin-left: 1em; margin-right: 1em;">
+      <dl>
+          <dt>Shortname</dt>
+          <dd>{{ page.meta.shortname }}</dd>
+          {% if page.meta.homepage %}
+          <dt>Project homepage</dt>
+          <dd><a href="{{ page.meta.homepage }}">{{ page.meta.homepage }}</a></dd>
+          {% endif %}
+          {% if page.meta.funding %}
+          <dt>Funding</dt>
+          <dd><a href="{{ page.meta.funding }}">{{ page.meta.funding }}</a></dd>
+          {% endif %}
+          {% if page.meta.stats %}
+          <dt>FRINK graph summary</dt>
+          <dd><a href="{{ page.meta.stats }}">{{ page.meta.stats }}</a></dd>
+          {% endif %}
+      </dl>
+    </aside>
+    <div class="card" style="margin-bottom: 1.5em;">
+        <div class="card-body">
+            <p>{{ page.content }}</p>
+        </div>
+    </div>
+    <div class="card" style="margin-bottom: 1.5em;">
+      <div class="card-header">
+        <b>Work with the KG</b>
+      </div>
+      <div class="card-body">
+          <ul>
+            <li>SPARQL: <code>{{ page.meta.sparql }}</code></li>
+            <li>TPF: <a href="{{ page.meta.tpf }}"><code>{{ page.meta.tpf }}</code></a></li>
+      </div>
+    </div>
+</main>
 
 {% endblock %} }}
-
-

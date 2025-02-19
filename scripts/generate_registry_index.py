@@ -14,7 +14,7 @@ def process_markdown_files(input_files, output_file):
 """
     # Write the combined YAML to the output file
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    for file in input_files:
+    for file in input_files.sorted():
         with open(file, "r") as f:
             doc = frontmatter.load(f)
             shortname = doc.metadata['shortname']
